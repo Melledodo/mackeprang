@@ -4,6 +4,8 @@
 
 <template>
 <section id="bannerbilledeafsnit">
+  <header>
+    <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
   <nav>
   <ul>
   <li><a href="/personligshopper">Personlig Shopper</a></li>
@@ -12,6 +14,7 @@
   <li><a href='/bookher'>Book her</a></li>
 </ul>
   </nav>
+  </header>
 
 </section>
 <section id="contentkonsulentafsnit">

@@ -5,7 +5,12 @@ $background-color: #FDF6EF;
 *{
     margin: 0;
 }
+#logo{
+    width: 10%;
+    position: absolute;
+    padding: 10px;
 
+}
 nav{
     display: flex;
     justify-content: right;
