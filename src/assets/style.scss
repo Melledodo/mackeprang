@@ -8,7 +8,7 @@ $background-color: #FDF6EF;
 #logo{
     width: 10%;
     position: absolute;
-    padding: 10px;
+    padding: 15px;
 
 }
 nav{
@@ -22,11 +22,18 @@ nav{
     li{
         display: inline;
         float: left;
-        margin: 10px;
+        margin: 15px;
     }
     a{
+        
         padding: 8px;
         margin: 8px;
+        color: $secondary-color;
+        text-decoration: none;
+        font-size: 25px;
+    }
+    :hover{
+        color: $background-color;
     }
 }
 
