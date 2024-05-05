@@ -1,5 +1,38 @@
-.test{
-    border: 5px solid;
-    height: 200px;
-    width: 200px;
+$primary-color: #354EC3;
+$secondary-color: #FD8C4A;
+$background-color: #FDF6EF;
+
+*{
+    margin: 0;
+}
+
+#bannerbilledeafsnit{
+    height: 600px;
+    width: 100%;
+    background-color: $background-color;
+}
+#contentkonsulentafsnit{
+    height: 600px;
+    width: 100%;
+    background-color: $primary-color;
+}
+#samarbejdspartnereafsnit{
+    height: 600px;
+    width: 100%;
+    background-color: $background-color;
+}
+#personligshopperafsnit{
+    height: 600px;
+    width: 100%;
+    background-color: $primary-color;
+}
+#anbefalingerafsnit{
+    height: 600px;
+    width: 100%;
+    background-color: $background-color;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: $primary-color;
 }

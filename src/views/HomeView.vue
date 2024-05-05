@@ -9,9 +9,24 @@
   <li><a href='/ommig'>Om mig</a></li>
   <li><a href='/bookher'>Book her</a></li>
 </ul>
-<p>Heeeeeeeeeeeeeeeeeej</p>
-<div class="test">
 
-</div>
+<section id="bannerbilledeafsnit">
+
+</section>
+<section id="contentkonsulentafsnit">
+
+</section>
+<section id="samarbejdspartnereafsnit">
+
+</section>
+<section id="personligshopperafsnit">
+
+</section>
+<section id="anbefalingerafsnit">
+
+</section>
+<footer>
+
+</footer>
 
 </template>
