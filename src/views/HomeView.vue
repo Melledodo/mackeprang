@@ -3,7 +3,10 @@
 </script>
 
 <template>
-  <main>
+
 <p>Heeeeeeeeeeeeeeeeeej</p>
-  </main>
+<div class="test">
+
+</div>
+
 </template>
