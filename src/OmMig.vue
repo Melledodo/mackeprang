@@ -3,5 +3,5 @@
 </script>
 
 <template>
-    <p>Personlig Shopper side</p>
+    <p>Om mig side</p>
 </template>

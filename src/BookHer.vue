@@ -3,5 +3,5 @@
 </script>
 
 <template>
-    <p>Personlig Shopper side</p>
+    <p>Book her side</p>
 </template>
