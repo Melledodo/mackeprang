@@ -19,4 +19,8 @@
     <source src="./assets/testvideo.mp4" type="video/mp4">
 </video>
 
+<footer>
+
+</footer>
+
 </template>
