@@ -46,7 +46,7 @@ nav{
         color: $background-color;
         }
     }
-} 
+}
 
 #bannerbilledeafsnit{
     height: 700px;
@@ -59,7 +59,6 @@ nav{
     #bannerbilledeoverskrift{
         font-size: 65px;
         color: $secondary-color;
-        margin-top: 200px;
     }
     #bannerbilledeundertekst{
         font-size: 25px;
@@ -86,6 +85,12 @@ nav{
     width: 100%;
     background-color: $background-color;
 }
+
+#shoppersidevideo{
+    height: 100%;
+    width: 100%;
+}
+
 footer{
     height: 100px;
     width: 100%;
