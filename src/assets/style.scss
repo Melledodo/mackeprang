@@ -55,6 +55,15 @@ nav{
     background-size: cover;
     background-position: center;
     position: relative;
+
+    #bannerbilledeoverskrift{
+        font-size: 65px;
+        color: $secondary-color;
+    }
+    #bannerbilledeundertekst{
+        font-size: 25px;
+        color: $secondary-color;
+    }
 }
 #contentkonsulentafsnit{
     height: 600px;

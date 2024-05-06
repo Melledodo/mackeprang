@@ -16,6 +16,9 @@
   </nav>
   </header>
 
+  <h1 id="bannerbilledeoverskrift" >Cecilie Mackeprang</h1>
+  <h2 id="bannerbilledeundertekst" >Content creator, personlig styling & konsulent</h2>
+
 </section>
 <section id="contentkonsulentafsnit">
 
