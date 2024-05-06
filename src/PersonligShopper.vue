@@ -9,7 +9,7 @@ const isActive = (path) => {
 </script>
 
 <template>
-    <header>
+  <header class="personligshopper-header">
       <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
       <nav>
         <ul>
