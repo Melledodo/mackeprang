@@ -3,7 +3,7 @@ import { ref } from 'vue';
 </script>
 
 <template>
-  <header class="personligshopper-header">
+  <header id="personligshopper-header">
       <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
       <nav>
         <ul>
