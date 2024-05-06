@@ -28,19 +28,33 @@ nav{
         
         padding: 8px;
         margin: 8px;
+        color: $background-color;
+        text-decoration: none;
+        font-size: 25px;
+
+    &:hover{
+        color: $secondary-color;
+    }
+    }
+    #bookknap{
+        padding: 8px;
+        margin: 8px;
         color: $secondary-color;
         text-decoration: none;
         font-size: 25px;
-    }
-    :hover{
+    &:hover{
         color: $background-color;
+        }
     }
 }
 
 #bannerbilledeafsnit{
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background-color: $background-color;
+    background-image: url('@/assets/joker.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 #contentkonsulentafsnit{
     height: 600px;

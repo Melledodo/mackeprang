@@ -11,7 +11,7 @@
   <li><a href="/personligshopper">Personlig Shopper</a></li>
   <li><a href='/tirsdagsklumme'>Tirsdagsklumme</a></li>
   <li><a href='/ommig'>Om mig</a></li>
-  <li><a href='/bookher'>Book her</a></li>
+  <li><a id="bookknap" href='/bookher'>Book her</a></li>
 </ul>
   </nav>
   </header>
