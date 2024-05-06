@@ -17,7 +17,7 @@
   </header>
 
   <h1 id="bannerbilledeoverskrift" >Cecilie Mackeprang</h1>
-  <h2 id="bannerbilledeundertekst" >Content creator, personlig styling & konsulent</h2>
+  <p id="bannerbilledeundertekst" >Content creator, personlig styling & konsulent</p>
 
 </section>
 <section id="contentkonsulentafsnit">
