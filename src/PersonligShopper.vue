@@ -19,8 +19,8 @@ import { ref } from 'vue';
       <source src="./assets/testvideo.mp4" type="video/mp4">
     </video>
   
+
     <footer>
         <p>© 2021 Mackeprang</p>
     </footer>
     </template>
-  
