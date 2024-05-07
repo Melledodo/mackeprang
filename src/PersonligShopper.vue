@@ -18,9 +18,13 @@ import { ref } from 'vue';
     <video id="shoppersidevideo" autoplay loop muted>
       <source src="./assets/testvideo.mp4" type="video/mp4">
     </video>
-  
 
+
+ 
     <footer>
-        <p>© 2021 Mackeprang</p>
+        <p>© 2024 Mackeprang</p>
     </footer>
     </template>
+
+  
+  
