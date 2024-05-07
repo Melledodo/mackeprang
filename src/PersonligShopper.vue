@@ -20,18 +20,22 @@ import { ref } from 'vue';
     </video>
 
     <div class="konsultation">
-      <div class="skfoto">
-        <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg">
-      </div>
-      <div class="sktekst">
-        <h2><b>1 times konsultation hjemme hos dig</b></h2>
-        <p><br> - Du får en kropsanalyse, samt et kig på din personlige stil og garderobe.<br>
-            <br> - Personlig rådgivning om snit, former og farver der klæder dig godt.<br>
-            <br> - Du får gode råd til, hvordan du selv sammensætter dit tøj.<br>
-            <br><em>Efterfølgende får du tilsendt materiale med billeder og kropsanalyse samt former, farver og snit der passer til dig.</em><br>
-        </p>
-      </div>
-    </div>
+  <div class="skfoto">
+    <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
+  </div>
+  <div class="sktekst">
+    <h2><b>1 times konsultation hjemme hos dig</b></h2>
+    <p><br>
+      - Du får en kropsanalyse, samt et kig på din personlige stil og garderobe.<br><br>
+      - Personlig rådgivning om snit, former og farver der klæder dig godt.<br><br>
+      - Du får gode råd til, hvordan du selv sammensætter dit tøj.<br><br>
+      <em>Efterfølgende får du tilsendt materiale med billeder og kropsanalyse samt former, farver og snit der passer til dig.</em><br>
+    </p>
+    <div class="pris">Pris: 900 kr.</div>
+    <button class="bookknap">BOOK HER</button>
+  </div>
+</div>
+
  
     <footer>
         <p>© 2024 Mackeprang</p>
