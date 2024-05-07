@@ -96,30 +96,41 @@ nav{
 }
 
 .konsultation {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 20px; 
-    align-items: center;
-    background-color: $background-color;
-    justify-items: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  .konsultation-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    max-width: 1200px;
+    padding: 40px; 
+
   }
   
   .skfoto {
+    flex: 1; 
     max-width: 100%;
     max-height: 100%;
     img {
       width: 100%; 
-      height: auto;
+      height: 100%;
       object-fit: cover; 
     }
   }
   
   .sktekst {
-    font-size: 18px;
+    background-color: $background-color; 
+    flex: 1;
+    font-size: 18px; 
     padding: 20px; 
     
     h2 {
-      margin-bottom: 20px; 
+      margin-bottom: 60px; 
+      font-size: 24px; 
     }
   
     p {
@@ -127,21 +138,30 @@ nav{
     }
   
     .pris {
-      margin-top: 50px; 
-      font-weight: bold;
+    margin-top: auto; 
+    font-weight: bold;
+    font-size: 16px;
     }
+  
     .bookknap {
-        display: inline-block;
-        padding: 10px 20px;
-        margin-top: 20px; /* Plads over knappen */
-        font-size: 18px;
-        background-color: $secondary-color;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
+      display: inline-block;
+      padding: 12px 24px;
+      margin-top: 50px; 
+      font-size: 16px;
+      font-weight: bold;
+      background-color: $secondary-color;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    
+      &:hover {
+        background-color: #555; 
       }
     }
+  }
+  
 
 footer{
     height: 100px;
