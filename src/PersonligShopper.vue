@@ -30,9 +30,9 @@ import { ref } from 'vue';
         Du får en kropsanalyse, samt et kig på din personlige stil og garderobe.<br><br>
         Personlig rådgivning om snit, former og farver der klæder dig godt.<br><br>
         Du får gode råd til, hvordan du selv sammensætter dit tøj.<br><br>
-        <em>Efterfølgende får du tilsendt materiale med billeder og kropsanalyse samt former, farver og snit der passer til dig.</em><br>
+        Efterfølgende får du tilsendt materiale med billeder og kropsanalyse samt former, farver og snit der passer til dig.<br>
       </p>
-      <div class="pris">900 kr.</div>
+      <div class="pris">900,-</div>
       <button class="bookknap">BOOK HER</button>
     </div>
   </div>

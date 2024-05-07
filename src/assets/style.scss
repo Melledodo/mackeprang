@@ -129,38 +129,41 @@ nav{
     padding: 20px; 
     
     h2 {
-      margin-bottom: 60px; 
+      margin-bottom: 50px;
+      margin-top: 50px; 
       font-size: 24px; 
+      text-align: center;
     }
   
     p {
       margin-bottom: 20px; 
+      text-align: center;
+      line-height: 1.5;
     }
   
     .pris {
-    margin-top: auto; 
+    margin-top: 60px; 
+    margin-bottom: 10px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 20px;
     }
   
     .bookknap {
-      display: inline-block;
-      padding: 12px 24px;
-      margin-top: 50px; 
-      font-size: 16px;
-      font-weight: bold;
-      background-color: $secondary-color;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    
-      &:hover {
-        background-color: #555; 
+        margin-top: 50px; 
+        font-size: 20px;
+        font-weight: bold;
+        color: $secondary-color; 
+        background-color: transparent; 
+        border: none; 
+        cursor: pointer;
+        text-decoration: none; 
+        text-decoration: underline;
       }
-    }
-  }
+      
+      .bookknap:hover {
+        color: #555; /* Ændr tekstfarve ved hover */
+      }
+    }      
   
 
 footer{
