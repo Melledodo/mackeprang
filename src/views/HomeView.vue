@@ -22,6 +22,12 @@ import { ref } from 'vue';
 
 </section>
 <section id="contentkonsulentafsnit">
+  <div id="forsidekonsulentbilleder">
+
+  </div>
+  <div id="forsidekonsulenttekst">
+
+  </div>
 
 </section>
 <section id="samarbejdspartnereafsnit">

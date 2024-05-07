@@ -61,6 +61,7 @@ nav{
     position: relative;
 
     #bannerbilledeoverskrift{
+        margin-top: 200px;
         font-size: 65px;
         color: $secondary-color;
     }
@@ -73,7 +74,22 @@ nav{
     height: 600px;
     width: 100%;
     background-color: $primary-color;
+    display: flex;
+    justify-content: center;
 }
+#forsidekonsulentbilleder{
+    border: solid 2px;
+    height: 500px;
+    width: 700px;
+    margin: 50px;
+}
+#forsidekonsulenttekst{
+    border: solid 2px;
+    height: 500px;
+    width: 700px;
+    margin: 50px;
+}
+
 #samarbejdspartnereafsnit{
     height: 600px;
     width: 100%;
