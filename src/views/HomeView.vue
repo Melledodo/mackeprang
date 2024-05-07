@@ -23,7 +23,8 @@ import { ref } from 'vue';
 </section>
 <section id="contentkonsulentafsnit">
   <div id="forsidekonsulentbilleder">
-
+    <img id="konsulentstortbillede" src="@/assets/mackeprang1.png">
+    <img id="konsulentlillebillede" src="@/assets/mackeprang2.png">
   </div>
   <div id="forsidekonsulenttekst">
 
