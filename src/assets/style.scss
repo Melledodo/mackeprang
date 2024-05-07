@@ -106,7 +106,7 @@ nav{
     display: flex; 
     flex-direction: row; 
     justify-content: center; 
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 40px; 
 
   }
@@ -131,21 +131,22 @@ nav{
     h2 {
       margin-bottom: 50px;
       margin-top: 50px; 
-      font-size: 24px; 
+      font-size: 20px; 
       text-align: center;
     }
   
     p {
-      margin-bottom: 20px; 
+      margin-bottom: 18px; 
       text-align: center;
       line-height: 1.5;
     }
   
     .pris {
     margin-top: 60px; 
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
     }
   
     .bookknap {
@@ -161,7 +162,7 @@ nav{
       }
       
       .bookknap:hover {
-        color: #555; /* Ændr tekstfarve ved hover */
+        color:$primary-color; 
       }
     }      
   
