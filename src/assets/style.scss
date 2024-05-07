@@ -36,7 +36,7 @@ nav{
         color: $secondary-color;
     }
     }
-    #bookknap{
+    #bookmenuknap{
         padding: 8px;
         margin: 8px;
         color: $secondary-color;
@@ -84,6 +84,8 @@ nav{
     margin: 50px;
     display: flex;
     position: relative;
+    align-items: center;
+    overflow: hidden;
 
     #konsulentstortbillede{
     width: 55%;
@@ -93,7 +95,7 @@ nav{
     #konsulentlillebillede{
     width: 40%;
     float: right;
-    margin-left: 250px;
+    margin-left: 400px;
     position: absolute;
     }
     }
@@ -102,6 +104,11 @@ nav{
     height: 500px;
     width: 700px;
     margin: 50px;
+    
+    #konsulentoverskrift{
+    color: $secondary-color;
+    font-size: 40px;
+    }
     }}
 #samarbejdspartnereafsnit{
     height: 600px;
