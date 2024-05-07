@@ -82,7 +82,7 @@ nav{
     height: 500px;
     width: 700px;
     margin: 50px;
-    overflow: hidden;
+    display: flex;
     position: relative;
 
     #konsulentstortbillede{
@@ -93,7 +93,8 @@ nav{
     #konsulentlillebillede{
     width: 40%;
     float: right;
-    margin-right: 100px;
+    margin-right: 10px;
+    position: absolute;
     }
     }
     #forsidekonsulenttekst{
