@@ -1,0 +1,202 @@
+#shoppersidevideo {
+  height: 100%;
+  width: 100%;
+}
+
+.konsultation, .psfelt, .garderobe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  height: auto;
+}
+
+.konsultation-container, .ps-container, .garderobe-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1000px;
+  padding: 40px;
+  margin-bottom: 10px;
+}
+
+.skfoto, .psfoto, .garderobefoto {
+  flex: 1;
+  max-width: 100%;
+  max-height: 100%;
+}
+.skfoto img, .psfoto img, .garderobefoto img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sktekst, .pstekst, .garderobetekst {
+  background-color: #FDF6EF;
+  flex: 1;
+  font-size: 18px;
+  padding: 20px;
+}
+.sktekst h2, .pstekst h2, .garderobetekst h2 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.sktekst p, .pstekst p, .garderobetekst p {
+  margin-bottom: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+.sktekst .pris, .pstekst .pris, .garderobetekst .pris {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.sktekst .bookknapps, .pstekst .bookknapps, .garderobetekst .bookknapps {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FD8C4A;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-decoration: underline;
+}
+.sktekst .bookknapps:hover, .pstekst .bookknapps:hover, .garderobetekst .bookknapps:hover {
+  color: #354EC3;
+}
+
+* {
+  margin: 0;
+}
+
+#logo {
+  width: 10%;
+  position: absolute;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  float: left;
+  margin: 15px;
+}
+nav a {
+  padding: 8px;
+  margin: 8px;
+  color: #FDF6EF;
+  text-decoration: none;
+  font-size: 25px;
+}
+nav a:hover {
+  color: #FD8C4A;
+}
+nav #bookmenuknap {
+  padding: 8px;
+  margin: 8px;
+  color: #FD8C4A;
+  text-decoration: none;
+  font-size: 25px;
+}
+nav #bookmenuknap:hover {
+  color: #FDF6EF;
+}
+
+#personligshopper-header {
+  background-color: #354EC3;
+}
+
+#bannerbilledeafsnit {
+  height: 700px;
+  width: 100%;
+  background-image: url("@/assets/joker.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+#bannerbilledeafsnit #bannerbilledeoverskrift {
+  margin-top: 200px;
+  font-size: 65px;
+  color: #FD8C4A;
+}
+#bannerbilledeafsnit #bannerbilledeundertekst {
+  font-size: 25px;
+  color: #FD8C4A;
+}
+
+#contentkonsulentafsnit {
+  height: 600px;
+  width: 100%;
+  background-color: #354EC3;
+  display: flex;
+  justify-content: center;
+}
+#contentkonsulentafsnit #forsidekonsulentbilleder {
+  height: 500px;
+  width: 700px;
+  margin: 50px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+}
+#contentkonsulentafsnit #forsidekonsulentbilleder #konsulentstortbillede {
+  width: 55%;
+  margin-left: 100px;
+  position: absolute;
+}
+#contentkonsulentafsnit #forsidekonsulentbilleder #konsulentlillebillede {
+  width: 40%;
+  float: right;
+  margin-left: 400px;
+  position: absolute;
+}
+#contentkonsulentafsnit #forsidekonsulenttekst {
+  border: solid 2px;
+  height: 500px;
+  width: 700px;
+  margin: 50px;
+}
+#contentkonsulentafsnit #forsidekonsulenttekst #konsulentoverskrift {
+  color: #FD8C4A;
+  font-size: 40px;
+}
+
+#samarbejdspartnereafsnit {
+  height: 600px;
+  width: 100%;
+  background-color: #FDF6EF;
+}
+
+#personligshopperafsnit {
+  height: 600px;
+  width: 100%;
+  background-color: #354EC3;
+}
+
+#anbefalingerafsnit {
+  height: 600px;
+  width: 100%;
+  background-color: #FDF6EF;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: #354EC3;
+}/*# sourceMappingURL=style.css.map */
