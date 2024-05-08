@@ -24,6 +24,15 @@
   max-width: 80%;
 }
 
+.sth2, .psh2, .gh2 {
+  color: #FD8C4A;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .konsultation, .psfelt, .garderobe {
   display: flex;
   justify-content: center;
@@ -63,7 +72,7 @@
 .sktekst h2, .pstekst h2, .garderobetekst h2 {
   margin-bottom: 50px;
   margin-top: 50px;
-  font-size: 28px;
+  font-size: 20px;
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }

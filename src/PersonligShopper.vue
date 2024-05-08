@@ -21,6 +21,7 @@ import { ref } from 'vue';
             <p>Er du i tvivl? Så lad os sammen finde ud af, hvad du mangler!</p>
         </div>
   </div>
+  <h2 class="sth2">Styling konsultation</h2>
 <div class="konsultation">
   <div class="konsultation-container">
     <div class="skfoto">
@@ -39,7 +40,7 @@ import { ref } from 'vue';
     </div>
   </div>
 </div>
-
+<h2 class="psh2">Personlig shopper</h2>
 <div class="psfelt">
   <div class="ps-container">
     <div class="pstekst">
@@ -59,7 +60,7 @@ import { ref } from 'vue';
     </div>
   </div>
 </div>
-
+<h2 class="gh2">Garderobetjek</h2>
 <div class="garderobe">
   <div class="garderobe-container">
     <div class="garderobefoto">
