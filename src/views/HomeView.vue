@@ -26,12 +26,12 @@ import { ref } from 'vue';
     <img id="konsulentstortbillede" src="@/assets/mackeprang1.png">
     <img id="konsulentlillebillede" src="@/assets/mackeprang2.png">
   </div>
-  <div id="forsidekonsulenttekst">
+  <div id="forsidekonsulenttekstboks">
     <h1 id="konsulentoverskrift">CONTENT CREATOR & <br>
     LIVE KONSULENT </h1>
-    <p></p>
-    <p></p>
-    <button id="bookherknap">Book her</button>
+    <p class="forsidekonsulenttekst">CONTENT CREATER</p>
+    <p class="forsidekonsulenttekst">LIVE KONSULENT</p>
+    <button id="bookherknap">BOOK HER</button>
   </div>
 
 </section>

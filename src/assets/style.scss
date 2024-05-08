@@ -78,18 +78,37 @@ nav{
     justify-content: center;
 
     #forsidekonsulentbilleder{
-    border: solid 2px;
     height: 500px;
     width: 700px;
     margin: 50px;
-}
-#forsidekonsulenttekst{
-    border: solid 2px;
-    height: 500px;
-    width: 700px;
-    margin: 50px;
-}
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
 
+    #konsulentstortbillede{
+    width: 55%;
+    margin-left: 100px;
+    position: absolute;
+    }
+    #konsulentlillebillede{
+    width: 40%;
+    float: right;
+    margin-left: 400px;
+    position: absolute;
+    }
+    }
+    #forsidekonsulenttekst{
+    border: solid 2px;
+    height: 500px;
+    width: 700px;
+    margin: 50px;
+    
+    #konsulentoverskrift{
+    color: $secondary-color;
+    font-size: 40px;
+    }
+    }}
 #samarbejdspartnereafsnit{
     height: 600px;
     width: 100%;
