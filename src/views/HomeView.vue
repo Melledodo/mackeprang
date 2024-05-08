@@ -12,7 +12,7 @@ import { ref } from 'vue';
   <li><a href="/personligshopper">Personlig Shopper</a></li>
   <li><a href='/tirsdagsklumme'>Tirsdagsklumme</a></li>
   <li><a href='/ommig'>Om mig</a></li>
-  <li><a id="bookknap" href='/bookher'>Book her</a></li>
+  <li><a id="bookmenuknap" href='/bookher'>Book her</a></li>
 </ul>
   </nav>
   </header>
@@ -27,7 +27,11 @@ import { ref } from 'vue';
     <img id="konsulentlillebillede" src="@/assets/mackeprang2.png">
   </div>
   <div id="forsidekonsulenttekst">
-
+    <h1 id="konsulentoverskrift">CONTENT CREATOR & <br>
+    LIVE KONSULENT </h1>
+    <p></p>
+    <p></p>
+    <button id="bookherknap">Book her</button>
   </div>
 
 </section>
