@@ -42,13 +42,15 @@
 .sktekst h2, .pstekst h2, .garderobetekst h2 {
   margin-bottom: 50px;
   margin-top: 50px;
-  font-size: 20px;
+  font-size: 28px;
   text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .sktekst p, .pstekst p, .garderobetekst p {
-  margin-bottom: 18px;
+  margin-bottom: 24px;
   text-align: center;
   line-height: 1.5;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .sktekst .pris, .pstekst .pris, .garderobetekst .pris {
   margin-top: 60px;
@@ -56,9 +58,10 @@
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .sktekst .bookknapps, .pstekst .bookknapps, .garderobetekst .bookknapps {
-  margin-top: 50px;
+  margin-top: 80px;
   font-size: 20px;
   font-weight: bold;
   color: #FD8C4A;
@@ -67,6 +70,7 @@
   cursor: pointer;
   text-decoration: none;
   text-decoration: underline;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .sktekst .bookknapps:hover, .pstekst .bookknapps:hover, .garderobetekst .bookknapps:hover {
   color: #354EC3;
@@ -166,15 +170,33 @@ nav #bookmenuknap:hover {
   margin-left: 400px;
   position: absolute;
 }
-#contentkonsulentafsnit #forsidekonsulenttekst {
-  border: solid 2px;
+#contentkonsulentafsnit #forsidekonsulenttekstboks {
   height: 500px;
   width: 700px;
   margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-#contentkonsulentafsnit #forsidekonsulenttekst #konsulentoverskrift {
+#contentkonsulentafsnit #forsidekonsulenttekstboks #konsulentoverskrift {
   color: #FD8C4A;
   font-size: 40px;
+  margin: 30px;
+}
+#contentkonsulentafsnit #forsidekonsulenttekstboks .forsidekonsulenttekst {
+  color: #FD8C4A;
+  font-size: 20px;
+  margin: 30px;
+}
+#contentkonsulentafsnit #forsidekonsulenttekstboks #bookherknap {
+  height: 50px;
+  width: 150px;
+  border-color: #FD8C4A;
+  border: solid 2px;
+  color: #FD8C4A;
+  background-color: #354EC3;
+  font-size: 15px;
+  margin: 30px;
 }
 
 #samarbejdspartnereafsnit {
