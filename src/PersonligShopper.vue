@@ -14,11 +14,13 @@ import { ref } from 'vue';
         </ul>
       </nav>
     </header>
-  
-    <video id="shoppersidevideo" autoplay loop muted>
-      <source src="" type="video/mp4">
-    </video>
-
+  <div class="psvideo-container">
+    <img class="psvideo" src="@/assets/joker.webp" alt="lige midlertidigt">
+        <div class="psvideo-tekst">
+            <h2>Personlig shopper</h2>
+            <p>Er du i tvivl? Så lad os sammen finde ud af, hvad du mangler!</p>
+        </div>
+  </div>
 <div class="konsultation">
   <div class="konsultation-container">
     <div class="skfoto">

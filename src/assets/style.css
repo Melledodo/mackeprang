@@ -1,6 +1,22 @@
-#shoppersidevideo {
-  height: 100%;
+@charset "UTF-8";
+.psvideo-container {
+  height: 80%;
   width: 100%;
+  background-position: center;
+  position: relative;
+}
+.psvideo-container .psvideo {
+  width: 100%; /* Fyld containerens bredde */
+  height: auto; /* Automatisk højde baseret på billedets bredde */
+  display: block; /* Vis billedet som et blok-element */
+}
+.psvideo-container .psvideo-tekst {
+  position: absolute;
+  top: 50%;
+  left: 50%; /* Placer venstre kant af teksten midt på containeren */
+  transform: translate(-50%, -50%); /* Centrer teksten nøjagtigt */
+  text-align: center; /* Centrer tekstens indhold */
+  max-width: 80%; /* Begræns maksimal bredden af tekst-overlayen */
 }
 
 .konsultation, .psfelt, .garderobe {
