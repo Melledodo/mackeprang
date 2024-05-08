@@ -10,7 +10,7 @@ import { ref } from 'vue';
             <li><a href="/personligshopper">Personlig Shopper</a></li>
             <li><a href='/tirsdagsklumme'>Tirsdagsklumme</a></li>
             <li><a href='/ommig'>Om mig</a></li>
-            <li><a id="bookknap" href='/bookher'>Book her</a></li>
+            <li><a id="bookmenuknap" href='/bookher'>Book her</a></li>
         </ul>
       </nav>
     </header>
@@ -33,7 +33,7 @@ import { ref } from 'vue';
         Efterfølgende får du tilsendt materiale med billeder og kropsanalyse samt former, farver og snit der passer til dig.<br>
       </p>
       <div class="pris">900,-</div>
-      <button class="bookknap">BOOK HER</button>
+      <button class="bookknapps">BOOK HER</button>
     </div>
   </div>
 </div>
@@ -50,7 +50,7 @@ import { ref } from 'vue';
         God stil behøver ikke koste en masse, og når vi tager på shopping sammen er det dit budget vi tager udgangspunkt i.<br>
       </p>
       <div class="pris">1600,-</div>
-      <button class="bookknap">BOOK HER</button>
+      <button class="bookknapps">BOOK HER</button>
     </div>
     <div class="psfoto">
       <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
@@ -74,7 +74,7 @@ import { ref } from 'vue';
         Jeg sender efterfølgende dine tips, billeder af outfits og indkøbsliste, som du kan bruge når du køber tøj fremover.<br>
       </p>
       <div class="pris">1900,-</div>
-      <button class="bookknap">BOOK HER</button>
+      <button class="bookknapps">BOOK HER</button>
     </div>
   </div>
 </div>
