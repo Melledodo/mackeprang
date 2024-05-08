@@ -18,7 +18,7 @@ import { ref } from 'vue';
   </header>
 
   <h1 id="bannerbilledeoverskrift" >Cecilie Mackeprang</h1>
-  <p id="bannerbilledeundertekst" >Content creator, personlig styling & konsulent</p>
+  <p id="bannerbilledeundertekst" >Content creator, personlig stylist & konsulent</p>
 
 </section>
 <section id="contentkonsulentafsnit">
