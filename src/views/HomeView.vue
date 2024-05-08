@@ -36,6 +36,9 @@ import { ref } from 'vue';
 
 </section>
 <section id="samarbejdspartnereafsnit">
+  <div class="samarbejdspartnerkasser"></div>
+  <div class="samarbejdspartnerkasser"></div>
+  <div class="samarbejdspartnerkasser"></div>
 
 </section>
 <section id="personligshopperafsnit">
