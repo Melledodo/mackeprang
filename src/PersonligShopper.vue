@@ -17,8 +17,8 @@ import { ref } from 'vue';
   <div class="psvideo-container">
     <img class="psvideo" src="@/assets/joker.webp" alt="lige midlertidigt">
         <div class="psvideo-tekst">
-            <h2>Personlig shopper</h2>
-            <p>Er du i tvivl? Så lad os sammen finde ud af, hvad du mangler!</p>
+            <h2 class="psoverskriftvideo">Personlig shopper</h2>
+            <p class="psunderskrift">Er du i tvivl? Så lad os sammen finde ud af, hvad du mangler!</p>
         </div>
   </div>
   <h2 class="sth2">Styling konsultation</h2>
