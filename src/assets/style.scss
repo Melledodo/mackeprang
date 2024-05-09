@@ -132,12 +132,32 @@ nav{
         margin: 30px;
         }
         }}
-#samarbejdspartnereafsnit{
-    height: 600px;
+#samarbejdspartnereafsnit {
+    height: 800px;
     width: 100%;
     background-color: $background-color;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+            
+    .samarbejdspartnerkasser {
+    height: 650px;
+    width: 400px;
+    margin: 50px;
+    flex: 0 0 auto;
+    position: relative;
 
-    
+        img {
+            transition: transform 0.3s ease;
+        }
+
+        &:hover img {
+            transform: scale(1.1);
+            background-color: $primary-color;
+        }
+    }
 }
 #personligshopperafsnit{
     height: 600px;

@@ -38,9 +38,24 @@ import { ref } from 'vue';
 
 </section>
 <section id="samarbejdspartnereafsnit">
-  <div class="samarbejdspartnerkasser"></div>
-  <div class="samarbejdspartnerkasser"></div>
-  <div class="samarbejdspartnerkasser"></div>
+  <div class="samarbejdspartnerkasser">
+    <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+  </div>
+  <div class="samarbejdspartnerkasser">
+    <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+  </div>
+  <div class="samarbejdspartnerkasser">
+    <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+  </div>
+  <div class="samarbejdspartnerkasser">
+    <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+  </div>
+  <div class="samarbejdspartnerkasser">
+    <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+  </div>
+  <div class="samarbejdspartnerkasser">
+    <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+  </div>
 
 </section>
 <section id="personligshopperafsnit">
