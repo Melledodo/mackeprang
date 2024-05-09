@@ -86,7 +86,9 @@ import { ref } from 'vue';
 <section id="personligshopperafsnit">
   <h1 id="forsidevideooverskrift">PERSONLIG SHOPPER</h1>
   <p id="forsidevideotekst">Er du i tvivl? Så lad os sammen finde ud af, hvad du mangler.</p>
+  <a href="/personligshopper">
   <button id="bookherknap">LÆS MERE</button>
+  </a>
 
 </section>
 <section id="anbefalingerafsnit">
