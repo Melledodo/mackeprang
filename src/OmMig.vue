@@ -22,6 +22,9 @@ import { ref } from 'vue';
         <br>Glæd dig til at få masser af modeinspiration og personlige tips fra mig!<br></p>
   </div>
 </div>
+
+
+
     <footer>
       <p>© 2024 Mackeprang</p>
     </footer>
