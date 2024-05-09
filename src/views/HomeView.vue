@@ -123,6 +123,33 @@ const closeModal = () => {
 
 </section>
 <section id="anbefalingerafsnit">
+  <h1 id="anbefalingeroverskrift">Anbefalinger</h1>
+  <div id="anbefalingerkasser">
+  <div class="anbefalingerboks">
+    <p class="anbefalingnavn">Hanne</p>
+    <div class="anbefalinglinje"></div>
+    <p class="anbefalingtekst">Det var en fornøjelse at arbejde med Cecilie, 
+      da hun gør tingene på sin egen måde og er nem at snakke med.</p>
+    <p class="anbefalingtype">Garderobetjek</p>
+    <div class="anbefalinglinje"></div>
+  </div>
+  <div class="anbefalingerboks">
+    <p class="anbefalingnavn">Hanne</p>
+    <div class="anbefalinglinje"></div>
+    <p class="anbefalingtekst">Det var en fornøjelse at arbejde med Cecilie, 
+      da hun gør tingene på sin egen måde og er nem at snakke med.</p>
+    <p class="anbefalingtype">Garderobetjek</p>
+    <div class="anbefalinglinje"></div>
+  </div>
+  <div class="anbefalingerboks">
+    <p class="anbefalingnavn">Hanne</p>
+    <div class="anbefalinglinje"></div>
+    <p class="anbefalingtekst">Det var en fornøjelse at arbejde med Cecilie, 
+      da hun gør tingene på sin egen måde og er nem at snakke med.</p>
+    <p class="anbefalingtype">Garderobetjek</p>
+    <div class="anbefalinglinje"></div>
+  </div>
+  </div>
 
 </section>
 <footer>
