@@ -116,11 +116,29 @@ nav{
         font-size: 40px;
         margin: 30px;
         }
+        .modalknapperkonsulent{
+        position: relative;
+
         .forsidekonsulenttekst{
         color: $secondary-color;
         font-size: 20px;
         margin: 30px;
+        position: absolute;
         }
+        .forsidekonsulenttesktplus{
+        color: $secondary-color;
+        font-size: 20px;
+        margin: 30px;
+        float: right;
+        }}
+        #konsulentlinje{
+        height: 0px;
+        width: 640px;
+        color: $secondary-color;
+        border: solid 0.5px;
+        margin-left: 30px;
+        }
+
         #bookherknap{
         height: 50px;
         width: 150px;
@@ -189,9 +207,37 @@ nav{
     }
 }
 #personligshopperafsnit{
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background-color: $primary-color;
+    background-image: url('@/assets/videotestbillede.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #forsidevideooverskrift{
+    color: $secondary-color;
+    font-size: 50px;
+    margin: 25px;
+    }
+    #forsidevideotekst{
+    color: $background-color;
+    font-size: 25px;
+    margin: 25px;
+    }
+    #bookherknap{
+    height: 50px;
+    width: 150px;
+    border-color: $secondary-color;
+    border: solid 2px;
+    color: $secondary-color;
+    background-color: transparent;
+    font-size: 15px;
+    margin: 25px;
+    }
 }
 #anbefalingerafsnit{
     height: 600px;

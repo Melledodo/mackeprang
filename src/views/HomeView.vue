@@ -31,8 +31,15 @@ import { ref } from 'vue';
   <div id="forsidekonsulenttekstboks">
     <h1 id="konsulentoverskrift">CONTENT CREATOR & <br>
     LIVE KONSULENT </h1>
+    <div class="modalknapperkonsulent">
     <p class="forsidekonsulenttekst">CONTENT CREATER</p>
+    <p class="forsidekonsulenttesktplus">+</p>
+    </div>
+    <div id="konsulentlinje"></div>
+    <div class="modalknapperkonsulent">
     <p class="forsidekonsulenttekst">LIVE KONSULENT</p>
+    <p class="forsidekonsulenttesktplus">+</p>
+    </div>
     <button id="bookherknap">BOOK HER</button>
   </div>
 
@@ -77,6 +84,9 @@ import { ref } from 'vue';
 
 </section>
 <section id="personligshopperafsnit">
+  <h1 id="forsidevideooverskrift">PERSONLIG SHOPPER</h1>
+  <p id="forsidevideotekst">Er du i tvivl? Så lad os sammen finde ud af, hvad du mangler.</p>
+  <button id="bookherknap">LÆS MERE</button>
 
 </section>
 <section id="anbefalingerafsnit">
