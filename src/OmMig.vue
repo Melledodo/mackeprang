@@ -14,7 +14,9 @@ import { ref } from 'vue';
         </ul>
       </nav>
     </header>
-  <p> heeejejejejejej</p>
+    <section>
+        <img id="ommigbillede" src="@/assets/mackeprang1.png" alt="mackeprang1">
+    </section>
     <footer>
         <p>© 2024 Mackeprang</p>
     </footer>
