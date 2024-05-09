@@ -130,7 +130,7 @@ const closeModal = () => {
     <div class="anbefalinglinje"></div>
     <p class="anbefalingtekst">Det var en fornøjelse at arbejde med Cecilie, 
       da hun gør tingene på sin egen måde og er nem at snakke med.</p>
-    <p class="anbefalingtype">Garderobetjek</p>
+    <p class="anbefalingtype">2 timers garderobetjek</p>
     <div class="anbefalinglinje"></div>
   </div>
   <div class="anbefalingerboks">
@@ -138,7 +138,7 @@ const closeModal = () => {
     <div class="anbefalinglinje"></div>
     <p class="anbefalingtekst">Det var en fornøjelse at arbejde med Cecilie, 
       da hun gør tingene på sin egen måde og er nem at snakke med.</p>
-    <p class="anbefalingtype">Garderobetjek</p>
+    <p class="anbefalingtype">2 timers garderobetjek</p>
     <div class="anbefalinglinje"></div>
   </div>
   <div class="anbefalingerboks">
@@ -146,7 +146,7 @@ const closeModal = () => {
     <div class="anbefalinglinje"></div>
     <p class="anbefalingtekst">Det var en fornøjelse at arbejde med Cecilie, 
       da hun gør tingene på sin egen måde og er nem at snakke med.</p>
-    <p class="anbefalingtype">Garderobetjek</p>
+    <p class="anbefalingtype">2 timers garderobetjek</p>
     <div class="anbefalinglinje"></div>
   </div>
   </div>
