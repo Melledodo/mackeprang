@@ -4,7 +4,9 @@ import { ref } from 'vue';
 
 <template>
   <header id="personligshopper-header">
-      <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
+    <a href="/">
+    <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
+    </a>
       <nav>
         <ul>
             <li><a href="/personligshopper">Personlig Shopper</a></li>
