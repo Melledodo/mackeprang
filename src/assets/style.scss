@@ -117,23 +117,29 @@ nav{
         margin: 30px;
         }
         .modalknapperkonsulent{
-        position: relative;
+        display: flex; // Brug Flexbox for at placere elementer i en række
+        align-items: center; // Centrer elementerne lodret
+        z-index: 2;
+        height: 50px;
+        width: 670px;
 
         .forsidekonsulenttekst{
         color: $secondary-color;
         font-size: 20px;
         margin: 30px;
-        position: absolute;
+        z-index: 1;
+        
         }
-        .forsidekonsulenttesktplus{
+        .forsidekonsulenttekstplus{
         color: $secondary-color;
         font-size: 20px;
-        margin: 30px;
-        float: right;
+        margin-left: auto;
+        z-index: 1;
+
         }}
         #konsulentlinje{
         height: 0px;
-        width: 640px;
+        width: 670px;
         color: $secondary-color;
         border: solid 0.5px;
         margin-left: 30px;
@@ -149,7 +155,41 @@ nav{
         font-size: 15px;
         margin: 30px;
         }
-        }}
+        }
+        .modal {
+            position: fixed; // Bliv på plads
+            z-index: 1; // Sid øverst
+            left: 0;
+            top: 0;
+            width: 100%; // Fuld bredde
+            height: 100%; // Fuld højde
+            overflow: auto; // Aktivér rulning ved behov
+            background-color: rgba(0, 0, 0, 0.4); // Sort med gennemsigtighed
+        
+            .modal-content {
+              background-color: #fefefe;
+              margin: 15% auto; // 15% fra toppen og centreret
+              padding: 20px;
+              border: 1px solid #888;
+              width: 80%; // Kan være mere eller mindre, afhængigt af skærmstørrelse
+            }
+        
+            // Luk knap
+            .close {
+              color: #aaa;
+              float: right;
+              font-size: 28px;
+              font-weight: bold;
+        
+              &:hover,
+              &:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+              }
+            }
+          }
+    }
 #samarbejdspartnereafsnit {
     height: 800px;
     width: 100%;

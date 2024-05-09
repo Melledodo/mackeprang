@@ -1,5 +1,18 @@
 <script setup>
+
 import { ref } from 'vue';
+
+const isModalOpen = ref(false);
+const modalType = ref('');
+
+const openModal = (type) => {
+  isModalOpen.value = true;
+  modalType.value = type;
+};
+
+const closeModal = () => {
+  isModalOpen.value = false;
+};
 
 </script>
 
@@ -31,15 +44,35 @@ import { ref } from 'vue';
   <div id="forsidekonsulenttekstboks">
     <h1 id="konsulentoverskrift">CONTENT CREATOR & <br>
     LIVE KONSULENT </h1>
-    <div class="modalknapperkonsulent">
-    <p class="forsidekonsulenttekst">CONTENT CREATER</p>
-    <p class="forsidekonsulenttesktplus">+</p>
+    <div>
+    <!-- Content Creater Modal -->
+    <div class="modalknapperkonsulent" @click="openModal('contentCreater')">
+      <p class="forsidekonsulenttekst">CONTENT CREATER</p>
+      <p class="forsidekonsulenttekstplus">+</p>
     </div>
     <div id="konsulentlinje"></div>
-    <div class="modalknapperkonsulent">
-    <p class="forsidekonsulenttekst">LIVE KONSULENT</p>
-    <p class="forsidekonsulenttesktplus">+</p>
+    
+    <!-- Live Konsulent Modal -->
+    <div class="modalknapperkonsulent" @click="openModal('liveKonsulent')">
+      <p class="forsidekonsulenttekst">LIVE KONSULENT</p>
+      <p class="forsidekonsulenttekstplus">+</p>
     </div>
+    
+    <!-- Modal -->
+    <div v-if="modalType === 'contentCreater' && isModalOpen" class="modal">
+      <div class="modal-content">
+        <span class="close" @click="closeModal">&times;</span>
+        <p>Content Creater Modal Content</p>
+      </div>
+    </div>
+    
+    <div v-if="modalType === 'liveKonsulent' && isModalOpen" class="modal">
+      <div class="modal-content">
+        <span class="close" @click="closeModal">&times;</span>
+        <p>Live Konsulent Modal Content</p>
+      </div>
+    </div>
+  </div>
     <button id="bookherknap">BOOK HER</button>
   </div>
 
