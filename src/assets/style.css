@@ -119,6 +119,15 @@
   color: #354EC3;
 }
 
+#ommigbillede {
+  max-width: 30%;
+  height: auto;
+  margin-left: 100px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 * {
   margin: 0;
 }
