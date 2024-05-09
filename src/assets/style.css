@@ -140,10 +140,13 @@
 }
 .ommig-tekst p {
   font-size: 24px;
+  text-align: justify;
 }
 .ommig-tekst h2 {
   font-size: 30px;
   font-weight: bold;
+  text-align: center;
+  margin-bottom: 20%;
 }
 
 * {
