@@ -40,21 +40,39 @@ import { ref } from 'vue';
 <section id="samarbejdspartnereafsnit">
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+    <div class="samarbejdsoverlay">
+    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+    <div class="samarbejdsoverlay">
+    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+    <div class="samarbejdsoverlay">
+    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+    <div class="samarbejdsoverlay">
+    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+    <div class="samarbejdsoverlay">
+    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="@/assets/samarbejdstestbillede.png">
+    <div class="samarbejdsoverlay">
+    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    </div>
   </div>
 
 </section>
