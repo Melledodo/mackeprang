@@ -123,6 +123,10 @@ nav{
         height: 50px;
         width: 670px;
 
+        &:hover{
+            cursor: pointer;
+        }
+
         .forsidekonsulenttekst{
         color: $secondary-color;
         font-size: 20px;
@@ -157,24 +161,23 @@ nav{
         }
         }
         .modal {
-            position: fixed; // Bliv på plads
-            z-index: 1; // Sid øverst
+            position: fixed;
+            z-index: 1; 
             left: 0;
             top: 0;
-            width: 100%; // Fuld bredde
-            height: 100%; // Fuld højde
-            overflow: auto; // Aktivér rulning ved behov
-            background-color: rgba(0, 0, 0, 0.4); // Sort med gennemsigtighed
+            width: 100%; 
+            height: 100%; 
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4); 
         
             .modal-content {
               background-color: #fefefe;
-              margin: 15% auto; // 15% fra toppen og centreret
+              margin: 15% auto; 
               padding: 20px;
               border: 1px solid #888;
-              width: 80%; // Kan være mere eller mindre, afhængigt af skærmstørrelse
+              width: 70%; 
             }
         
-            // Luk knap
             .close {
               color: #aaa;
               float: right;

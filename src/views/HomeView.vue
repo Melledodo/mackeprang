@@ -45,20 +45,16 @@ const closeModal = () => {
     <h1 id="konsulentoverskrift">CONTENT CREATOR & <br>
     LIVE KONSULENT </h1>
     <div>
-    <!-- Content Creater Modal -->
     <div class="modalknapperkonsulent" @click="openModal('contentCreater')">
       <p class="forsidekonsulenttekst">CONTENT CREATER</p>
       <p class="forsidekonsulenttekstplus">+</p>
     </div>
     <div id="konsulentlinje"></div>
-    
-    <!-- Live Konsulent Modal -->
     <div class="modalknapperkonsulent" @click="openModal('liveKonsulent')">
       <p class="forsidekonsulenttekst">LIVE KONSULENT</p>
       <p class="forsidekonsulenttekstplus">+</p>
     </div>
     
-    <!-- Modal -->
     <div v-if="modalType === 'contentCreater' && isModalOpen" class="modal">
       <div class="modal-content">
         <span class="close" @click="closeModal">&times;</span>
@@ -73,7 +69,9 @@ const closeModal = () => {
       </div>
     </div>
   </div>
+  <a href="/bookher">
     <button id="bookherknap">BOOK HER</button>
+  </a>
   </div>
 
 </section>
