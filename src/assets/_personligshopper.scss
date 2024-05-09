@@ -86,8 +86,9 @@ $background-color: #FDF6EF;
   .sktekst, .pstekst, .garderobetekst {
     background-color: $background-color; 
     flex: 1;
-    font-size: 18px; 
     padding: 20px; 
+    max-width: 50%; 
+
     
     h2 {
       margin-bottom: 50px;

@@ -80,8 +80,8 @@
 .sktekst, .pstekst, .garderobetekst {
   background-color: #FDF6EF;
   flex: 1;
-  font-size: 18px;
   padding: 20px;
+  max-width: 50%;
 }
 .sktekst h2, .pstekst h2, .garderobetekst h2 {
   margin-bottom: 50px;
