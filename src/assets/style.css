@@ -119,6 +119,11 @@
   color: #354EC3;
 }
 
+* {
+  padding: 0%;
+  margin: 0;
+}
+
 .ommig-indhold {
   display: flex;
   align-items: center;
@@ -150,6 +155,41 @@
   margin-bottom: 10%;
 }
 
+.ommigfoto-container {
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.instanavn {
+  margin-bottom: 2rem;
+}
+
+.fotogalleri {
+  display: flex;
+  gap: 20px;
+}
+
+.kolonne {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ommig-fotogalleri img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .fotogalleri {
+    flex-direction: column;
+  }
+}
 * {
   margin: 0;
 }

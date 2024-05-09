@@ -23,7 +23,7 @@ import { ref } from 'vue';
   </div>
 </div>
 
-<div class="ommig-container">
+<div class="ommigfoto-container">
 
     <h2 class="instanavn"> ceciliemackeprang </h2>
     
