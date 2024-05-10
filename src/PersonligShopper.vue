@@ -30,12 +30,12 @@ import { ref } from 'vue';
       <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
     </div>
     <div class="sktekst">
-      <h2><b>1 times konsultation hjemme hos dig</b></h2>
+      <h3><b>1 times konsultation hjemme hos dig</b></h3>
       <p>
-        Du får en kropsanalyse, samt et kig på din personlige stil og garderobe.<br><br>
-        Personlig rådgivning om snit, former og farver der klæder dig godt.<br><br>
-        Du får gode råd til, hvordan du selv sammensætter dit tøj.<br><br>
-        Efterfølgende får du tilsendt materiale med billeder og kropsanalyse samt former, farver og snit der passer til dig.<br>
+        Få en omfattende kropsanalyse og evaluering af din personlige stil og garderobe.
+        <br>Modtag personlig rådgivning om, hvilke snit, former og farver der klæder dig bedst.
+        <br>Lær at sammensætte dit tøj med gode råd og tips.
+        <br>Efter vores session vil du modtage omfattende materiale med billeder, kropsanalyse og anbefalinger til former, farver og snit, der passer perfekt til dig.
       </p>
       <div class="pris">900,-</div>
       <button class="bookknapps">BOOK HER</button>
@@ -46,13 +46,13 @@ import { ref } from 'vue';
 <div class="psfelt">
   <div class="ps-container">
     <div class="pstekst">
-      <h2><b>2 timers personlig shopping i byen</b></h2>
+      <h3><b>2 timers personlig shopping i byen</b></h3>
       <p>
-        Jeg har forberedt butikker og tøj ud fra dine ønsker og indkøbsliste.<br><br>
-        Vi klarer alle dine indkøb på én gang.<br><br>
-        Vi bygger videre på din garderobe, så du kan bruge tøj på tværs af sæsoner.<br><br>
-        Du vil blive inspireret med nye farver, styles og tøj-sammensætninger.<br><br>
-        God stil behøver ikke koste en masse, og når vi tager på shopping sammen er det dit budget vi tager udgangspunkt i.<br>
+        Jeg har nøje udvalgt butikker og tøj baseret på dine ønsker og indkøbsliste.
+        <br>Vi ordner alle dine indkøb på én gang for maksimal bekvemmelighed.
+        <br>Vi udvider din garderobe, så den fungerer på tværs af sæsonerne.
+        <br>Bliv inspireret med nye farver, styles og tøjsammensætninger.
+        <br>God stil behøver ikke være dyrt! Når vi shopper sammen, tager vi udgangspunkt i dit budget.
       </p>
       <div class="pris">1600,-</div>
       <button class="bookknapps">BOOK HER</button>
@@ -69,14 +69,13 @@ import { ref } from 'vue';
       <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
     </div>
     <div class="garderobetekst">
-      <h2><b>3 timers garderobetjek hjemme hos dig</b></h2>
+      <h3><b>3 timers garderobetjek hjemme hos dig</b></h3>
       <p>
-        Vi shopper i dit klædeskab og laver helt nye outfits fra din garderobe.<br><br>
-        Vi rydder sammen op i din garderobe.<br><br>
-        Jeg viser hvilke styles og snit, der klæder din stil og figur.<br><br>
-        Vi tager billeder af alle de nye sæt.<br><br>
-        Vi laver en indkøbsliste, som du kan bruge til din næste shoppingtur.<br><br>
-        Jeg sender efterfølgende dine tips, billeder af outfits og indkøbsliste, som du kan bruge når du køber tøj fremover.<br>
+        Sammen skaber vi helt nye outfits ved at shoppe i din egen garderobe.
+        <br>Vi skaber orden i kaos og forvandler din garderobe.
+        <br>Jeg guider dig til de perfekte styles og snit, der passer til din personlige stil og figur.
+        <br>Vi foreviger alle dine nye sæt med professionelle billeder.
+        <br>Efter vores session modtager du personlige tips, outfitbilleder og din indkøbsliste til at guide dig fremover i dit tøjvalg.
       </p>
       <div class="pris">1900,-</div>
       <button class="bookknapps">BOOK HER</button>
@@ -88,13 +87,10 @@ import { ref } from 'vue';
 <div class="gnfelt">
   <div class="gn-container">
     <div class="gntekst">
-      <h2><b>2 timers personlig shopping i byen</b></h2>
+      <h3><b>6-8 personers styling</b></h3>
       <p>
-        Jeg har forberedt butikker og tøj ud fra dine ønsker og indkøbsliste.<br><br>
-        Vi klarer alle dine indkøb på én gang.<br><br>
-        Vi bygger videre på din garderobe, så du kan bruge tøj på tværs af sæsoner.<br><br>
-        Du vil blive inspireret med nye farver, styles og tøj-sammensætninger.<br><br>
-        God stil behøver ikke koste en masse, og når vi tager på shopping sammen er det dit budget vi tager udgangspunkt i.<br>
+        Drømmer du om en stilfuld aften eller dag? Lad mig komme til dig og forvandle din garderobe med skønne snit, farver og geniale stylingtips! 
+        <br>Det handler om at genopdage din stil på en spændende måde! 
       </p>
       <div class="pris">300,- pr. person.</div>
       <button class="bookknapps">BOOK HER</button>
