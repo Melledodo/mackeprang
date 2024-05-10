@@ -62,12 +62,13 @@ body {
       padding: 0 40px;
     }
   }
+  
   .instagram-info{
     display: flex;
     align-items: center;
     position: relative;
-    flex-direction: column;
-    border: 2px solid $secondary-color;
+    flex-direction: row;
+    justify-content: flex-start;
   }
   #instalogo{
     width: 80px; 
@@ -84,7 +85,11 @@ body {
     width: 90%;
     margin: auto;
     padding: 40px 0;
+    transition: transform 0.3s ease;
 }
+.ommig-fotogalleri img:hover {
+    transform: scale(1.1); 
+  }
 
 .fotogalleri{
     display: flex;
@@ -105,4 +110,13 @@ body {
     .fotogalleri{
         flex-direction: column;
     }
+}
+
+.fotofarve-container img{
+    border: 2px solid $secondary-color;
+    padding: 0;
+}
+.fotofarveorange-container img{
+    border: 2px solid $primary-color;
+    padding: 0;
 }
