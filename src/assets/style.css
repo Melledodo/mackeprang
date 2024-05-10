@@ -224,7 +224,7 @@ h2 {
   width: 90%;
   margin: auto;
   padding: 40px 0;
-  transition: transform 0.3s ease;
+  transition: transform 0.5 ease;
 }
 
 .ommig-fotogalleri img:hover {
