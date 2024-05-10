@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue';
+
 </script>
 
 <template>
@@ -20,8 +21,8 @@ import { ref } from 'vue';
   <img id="ommigbillede" src="@/assets/mackeprang1.png" alt="mackeprang1">
   <div class="ommig-tekst">
     <h2>Cecilie Mackeprang</h2>
-    <p>Med over 15 års erfaring i modebranchen og baggrund som tekstil- og beklædningshåndværker med speciale i design, har jeg arbejdet som Visuel Merchandiser hos Bestseller, Envii og Samsøe Samsøe.
-        <br>Glæd dig til at få masser af modeinspiration og personlige tips fra mig!<br></p>
+    <p>Med over 15 års erfaring i modebranchen og baggrund som tekstil- og<br> beklædningshåndværker med speciale i design, har jeg arbejdet som Visuel Merchandiser hos Bestseller, Envii og Samsøe Samsøe.
+    <br>Glæd dig til at få masser af modeinspiration og personlige tips fra mig!</p>
   </div>
 </div>
 
