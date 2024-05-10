@@ -2,6 +2,12 @@ $primary-color: #354EC3;
 $secondary-color: #FD8C4A;
 $background-color: #FDF6EF;
 
+body {
+  background-color: $background-color; 
+  margin: 0; 
+  padding: 0; 
+}
+
 .psvideo-container {
   height: 80vh; 
   width: 100%; 
@@ -43,7 +49,7 @@ $background-color: #FDF6EF;
   }
 }
 
-.sth2, .psh2, .gh2{
+.sth2, .psh2, .gh2, .gnh2{
   color: $secondary-color;
   text-align: center;
   font-size: 30px;
@@ -53,7 +59,7 @@ $background-color: #FDF6EF;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.konsultation, .psfelt, .garderobe {
+.konsultation, .psfelt, .garderobe, .gnfelt {
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -62,17 +68,17 @@ $background-color: #FDF6EF;
     height: auto;
   }
   
-  .konsultation-container, .ps-container, .garderobe-container {
+  .konsultation-container, .ps-container, .garderobe-container, .gn-container {
     display: flex; 
     flex-direction: row; 
     justify-content: center; 
     max-width: 1300px;
     padding: 20px; 
     margin-bottom: 10px;
-
+    
   }
   
-  .skfoto, .psfoto, .garderobefoto {
+  .skfoto, .psfoto, .garderobefoto, .gnfoto {
     flex: 1; 
     max-width: 100%;
     max-height: 100%;
@@ -83,8 +89,8 @@ $background-color: #FDF6EF;
     }
   }
   
-  .sktekst, .pstekst, .garderobetekst {
-    background-color: $background-color; 
+  .sktekst, .pstekst, .garderobetekst, .gntekst {
+    background-color: antiquewhite; 
     flex: 1;
     padding: 20px; 
     max-width: 50%; 
@@ -115,15 +121,16 @@ $background-color: #FDF6EF;
     }
   
     .bookknapps {
-        margin-top: 80px; 
-        font-size: 20px;
-        font-weight: bold;
-        color: $secondary-color; 
-        background-color: transparent; 
-        border: none; 
-        cursor: pointer;
-        text-decoration: none; 
-        text-decoration: underline;
+      position: relative;
+      font-size: 20px;
+      font-weight: bold;
+      color: $secondary-color;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      margin-top: 30%;
+      margin-left: 70%;
+      text-decoration: underline;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       }
       

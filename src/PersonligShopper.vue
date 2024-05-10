@@ -83,6 +83,27 @@ import { ref } from 'vue';
     </div>
   </div>
 </div>
+
+<h2 class="gnh2">Girls night in</h2>
+<div class="gnfelt">
+  <div class="gn-container">
+    <div class="gntekst">
+      <h2><b>2 timers personlig shopping i byen</b></h2>
+      <p>
+        Jeg har forberedt butikker og tøj ud fra dine ønsker og indkøbsliste.<br><br>
+        Vi klarer alle dine indkøb på én gang.<br><br>
+        Vi bygger videre på din garderobe, så du kan bruge tøj på tværs af sæsoner.<br><br>
+        Du vil blive inspireret med nye farver, styles og tøj-sammensætninger.<br><br>
+        God stil behøver ikke koste en masse, og når vi tager på shopping sammen er det dit budget vi tager udgangspunkt i.<br>
+      </p>
+      <div class="pris">300,- pr. person.</div>
+      <button class="bookknapps">BOOK HER</button>
+    </div>
+    <div class="gnfoto">
+      <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
+    </div>
+  </div>
+</div>
  
     <footer>
         <p>© 2024 Mackeprang</p>

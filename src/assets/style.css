@@ -1,3 +1,9 @@
+body {
+  background-color: #FDF6EF;
+  margin: 0;
+  padding: 0;
+}
+
 .psvideo-container {
   height: 80vh;
   width: 100%;
@@ -36,7 +42,7 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.sth2, .psh2, .gh2 {
+.sth2, .psh2, .gh2, .gnh2 {
   color: #FD8C4A;
   text-align: center;
   font-size: 30px;
@@ -46,7 +52,7 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.konsultation, .psfelt, .garderobe {
+.konsultation, .psfelt, .garderobe, .gnfelt {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +61,7 @@
   height: auto;
 }
 
-.konsultation-container, .ps-container, .garderobe-container {
+.konsultation-container, .ps-container, .garderobe-container, .gn-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -64,38 +70,38 @@
   margin-bottom: 10px;
 }
 
-.skfoto, .psfoto, .garderobefoto {
+.skfoto, .psfoto, .garderobefoto, .gnfoto {
   flex: 1;
   max-width: 100%;
   max-height: 100%;
 }
-.skfoto img, .psfoto img, .garderobefoto img {
+.skfoto img, .psfoto img, .garderobefoto img, .gnfoto img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.sktekst, .pstekst, .garderobetekst {
-  background-color: #FDF6EF;
+.sktekst, .pstekst, .garderobetekst, .gntekst {
+  background-color: antiquewhite;
   flex: 1;
   padding: 20px;
   max-width: 50%;
 }
-.sktekst h2, .pstekst h2, .garderobetekst h2 {
+.sktekst h2, .pstekst h2, .garderobetekst h2, .gntekst h2 {
   margin-bottom: 50px;
   margin-top: 50px;
   font-size: 20px;
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.sktekst p, .pstekst p, .garderobetekst p {
+.sktekst p, .pstekst p, .garderobetekst p, .gntekst p {
   margin-bottom: 24px;
   text-align: center;
   line-height: 1.5;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.sktekst .pris, .pstekst .pris, .garderobetekst .pris {
+.sktekst .pris, .pstekst .pris, .garderobetekst .pris, .gntekst .pris {
   margin-top: 60px;
   margin-bottom: 20px;
   font-weight: bold;
@@ -103,19 +109,20 @@
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.sktekst .bookknapps, .pstekst .bookknapps, .garderobetekst .bookknapps {
-  margin-top: 80px;
+.sktekst .bookknapps, .pstekst .bookknapps, .garderobetekst .bookknapps, .gntekst .bookknapps {
+  position: relative;
   font-size: 20px;
   font-weight: bold;
   color: #FD8C4A;
   background-color: transparent;
   border: none;
   cursor: pointer;
-  text-decoration: none;
+  margin-top: 30%;
+  margin-left: 70%;
   text-decoration: underline;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-.sktekst .bookknapps:hover, .pstekst .bookknapps:hover, .garderobetekst .bookknapps:hover {
+.sktekst .bookknapps:hover, .pstekst .bookknapps:hover, .garderobetekst .bookknapps:hover, .gntekst .bookknapps:hover {
   color: #354EC3;
 }
 
@@ -297,10 +304,34 @@ nav #bookmenuknap:hover {
   font-size: 40px;
   margin: 30px;
 }
-#contentkonsulentafsnit #forsidekonsulenttekstboks .forsidekonsulenttekst {
+#contentkonsulentafsnit #forsidekonsulenttekstboks .modalknapperkonsulent {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  height: 50px;
+  width: 670px;
+}
+#contentkonsulentafsnit #forsidekonsulenttekstboks .modalknapperkonsulent:hover {
+  cursor: pointer;
+}
+#contentkonsulentafsnit #forsidekonsulenttekstboks .modalknapperkonsulent .forsidekonsulenttekst {
   color: #FD8C4A;
   font-size: 20px;
   margin: 30px;
+  z-index: 1;
+}
+#contentkonsulentafsnit #forsidekonsulenttekstboks .modalknapperkonsulent .forsidekonsulenttekstplus {
+  color: #FD8C4A;
+  font-size: 20px;
+  margin-left: auto;
+  z-index: 1;
+}
+#contentkonsulentafsnit #forsidekonsulenttekstboks #konsulentlinje {
+  height: 0px;
+  width: 670px;
+  color: #FD8C4A;
+  border: solid 0.5px;
+  margin-left: 30px;
 }
 #contentkonsulentafsnit #forsidekonsulenttekstboks #bookherknap {
   height: 50px;
@@ -312,23 +343,173 @@ nav #bookmenuknap:hover {
   font-size: 15px;
   margin: 30px;
 }
+#contentkonsulentafsnit .modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#contentkonsulentafsnit .modal .modal-content {
+  background-color: #FDF6EF;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+}
+#contentkonsulentafsnit .modal .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+#contentkonsulentafsnit .modal .close:hover, #contentkonsulentafsnit .modal .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 #samarbejdspartnereafsnit {
-  height: 600px;
+  height: 800px;
   width: 100%;
   background-color: #FDF6EF;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#samarbejdspartnereafsnit .samarbejdspartnerkasser {
+  height: 650px;
+  width: 400px;
+  margin: 50px;
+  flex: 0 0 auto;
+  position: relative;
+}
+#samarbejdspartnereafsnit .samarbejdspartnerkasser .samarbejdsbilleder {
+  transition: transform 0.3s ease;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#samarbejdspartnereafsnit .samarbejdspartnerkasser .samarbejdsoverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.3s ease;
+  background-color: rgba(53, 78, 195, 0.5);
+}
+#samarbejdspartnereafsnit .samarbejdspartnerkasser:hover .samarbejdsbilleder {
+  transform: scale(1.1);
+}
+#samarbejdspartnereafsnit .samarbejdspartnerkasser:hover .samarbejdsoverlay {
+  opacity: 1;
+  transform: scale(1.1);
+}
+#samarbejdspartnereafsnit .samarbejdspartnerkasser .samarbejdstekst {
+  color: #FDF6EF;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #personligshopperafsnit {
-  height: 600px;
+  height: 700px;
   width: 100%;
-  background-color: #354EC3;
+  background-image: url("@/assets/videotestbillede.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#personligshopperafsnit #forsidevideooverskrift {
+  color: #FD8C4A;
+  font-size: 50px;
+  margin: 25px;
+}
+#personligshopperafsnit #forsidevideotekst {
+  color: #FDF6EF;
+  font-size: 25px;
+  margin: 25px;
+}
+#personligshopperafsnit #bookherknap {
+  height: 50px;
+  width: 150px;
+  border-color: #FD8C4A;
+  border: solid 2px;
+  color: #FD8C4A;
+  background-color: transparent;
+  font-size: 15px;
+  margin: 25px;
 }
 
 #anbefalingerafsnit {
   height: 600px;
   width: 100%;
   background-color: #FDF6EF;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+#anbefalingerafsnit #anbefalingeroverskrift {
+  color: #FD8C4A;
+  font-size: 40px;
+}
+#anbefalingerafsnit #anbefalingerkasser {
+  height: 500px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+#anbefalingerafsnit #anbefalingerkasser .anbefalingerboks {
+  height: 350px;
+  width: 400px;
+  background-color: antiquewhite;
+  border: solid rgba(0, 0, 0, 0.1);
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#anbefalingerafsnit #anbefalingerkasser .anbefalingerboks .anbefalingnavn {
+  font-size: 20px;
+  height: 30px;
+  width: 300px;
+}
+#anbefalingerafsnit #anbefalingerkasser .anbefalingerboks .anbefalinglinje {
+  height: 0px;
+  width: 300px;
+  border: solid 0.5px;
+  color: rgba(0, 0, 0, 0.1);
+}
+#anbefalingerafsnit #anbefalingerkasser .anbefalingerboks .anbefalingtekst {
+  font-size: 15px;
+  height: 50px;
+  width: 300px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#anbefalingerafsnit #anbefalingerkasser .anbefalingerboks .anbefalingtype {
+  font-size: 15px;
+  height: 30px;
+  width: 300px;
 }
 
 footer {
