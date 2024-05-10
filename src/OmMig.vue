@@ -23,14 +23,17 @@ import { ref } from 'vue';
   <div class="ommig-tekst">
     <h2>Cecilie Mackeprang</h2>
     <p>Med over 15 års erfaring i modebranchen og baggrund som tekstil- og<br> beklædningshåndværker med speciale i design, har jeg arbejdet som Visuel Merchandiser hos Bestseller, Envii og Samsøe Samsøe.
+    Med over 15 års erfaring i modebranchen og baggrund som tekstil- og<br> beklædningshåndværker med speciale i design, har jeg arbejdet som Visuel Merchandiser hos Bestseller, Envii og Samsøe Samsøe.
     <br>Glæd dig til at få masser af modeinspiration og personlige tips fra mig!</p>
   </div>
 </div>
 
 <div class="ommigfoto-container">
-
-    <h2 class="instanavn"> ceciliemackeprang </h2>
-    
+    <div class="instagram-info">
+        <a href="https://www.instagram.com/ceciliemackeprang" target="_blank" rel="noopener noreferrer">
+            <img src="@/assets/insta-logo.webp" alt="Instagram Logo" id="instalogo"></a>
+                <h2 class="instanavn"> ceciliemackeprang </h2>
+    </div>
         <div class="fotogalleri">
 
             <div class="kolonne">
