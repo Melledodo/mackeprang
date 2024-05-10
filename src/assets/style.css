@@ -179,8 +179,8 @@ p {
 }
 
 h2 {
+  color: #FD8C4A;
   font-size: 30px;
-  font-weight: bold;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -206,16 +206,15 @@ h2 {
   align-items: center;
   position: relative;
   flex-direction: column;
+  border: 2px solid #FD8C4A;
 }
 
 #instalogo {
   width: 80px;
   height: auto;
-  margin-right: 10px;
 }
 
 .instanavn {
-  margin-bottom: 2rem;
   font-size: 2rem;
   text-align: left;
 }

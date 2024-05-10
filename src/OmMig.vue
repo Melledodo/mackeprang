@@ -29,10 +29,11 @@ import { ref } from 'vue';
 </div>
 
 <div class="ommigfoto-container">
+    
     <div class="instagram-info">
         <a href="https://www.instagram.com/ceciliemackeprang" target="_blank" rel="noopener noreferrer">
             <img src="@/assets/insta-logo.webp" alt="Instagram Logo" id="instalogo"></a>
-                <h2 class="instanavn"> ceciliemackeprang </h2>
+                <p class="instanavn"> ceciliemackeprang </p>
     </div>
         <div class="fotogalleri">
 
