@@ -130,15 +130,6 @@ body {
       max-width: 100%;
     }
     
-    
-    @media(max-width: 768px){
-      .konsultation-container, .ps-container, .garderobe-container, .gn-container {
-        flex-direction: column;
-      }
-      .sktekst, .pstekst, .garderobetekst, .gntekst{
-        max-width: 100%;
-      }
-    }
 
 
     .pris {

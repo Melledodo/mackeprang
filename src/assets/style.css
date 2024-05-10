@@ -118,14 +118,6 @@ body {
      object-fit: cover;
   max-width: 100%;
 }
-@media (max-width: 768px) {
-  .sktekst .konsultation-container, .sktekst .ps-container, .sktekst .garderobe-container, .sktekst .gn-container, .pstekst .konsultation-container, .pstekst .ps-container, .pstekst .garderobe-container, .pstekst .gn-container, .garderobetekst .konsultation-container, .garderobetekst .ps-container, .garderobetekst .garderobe-container, .garderobetekst .gn-container, .gntekst .konsultation-container, .gntekst .ps-container, .gntekst .garderobe-container, .gntekst .gn-container {
-    flex-direction: column;
-  }
-  .sktekst .sktekst, .sktekst .pstekst, .sktekst .garderobetekst, .sktekst .gntekst, .pstekst .sktekst, .pstekst .pstekst, .pstekst .garderobetekst, .pstekst .gntekst, .garderobetekst .sktekst, .garderobetekst .pstekst, .garderobetekst .garderobetekst, .garderobetekst .gntekst, .gntekst .sktekst, .gntekst .pstekst, .gntekst .garderobetekst, .gntekst .gntekst {
-    max-width: 100%;
-  }
-}
 .sktekst .pris, .pstekst .pris, .garderobetekst .pris, .gntekst .pris {
   margin-top: 60px;
   margin-bottom: 20px;
