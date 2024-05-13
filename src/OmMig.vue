@@ -40,54 +40,36 @@ import { ref } from 'vue';
 
             <div class="kolonne">
                 <div class="ommig-fotogalleri">
-                    <div class="fotofarveorange-container">
                     <img src="https://source.unsplash.com/OyCl7Y4y0Bk" alt="">
                 </div>
-                </div>
                         <div class="ommig-fotogalleri">
-                            <div class="fotofarve-container">
                     <img src="https://source.unsplash.com/Kl1gC0ve620" alt="">
                             </div>    
-                        </div>
                         <div class="ommig-fotogalleri">
-                            <div class="fotofarveorange-container">
                     <img src="https://source.unsplash.com/55btQzyDiO8" alt="">
                 </div>    
             </div>
-            </div>
             <div class="kolonne">
                 <div class="ommig-fotogalleri">
-                    <div class="fotofarve-container">
                     <img src="https://source.unsplash.com/g0dBbrGmMe0" alt="">
                 </div>
-                </div>
                         <div class="ommig-fotogalleri">
-                            <div class="fotofarveorange-container">
                     <img src="https://source.unsplash.com/v1OW17UcR-Q" alt="">
                             </div>    
-                        </div>
                         <div class="ommig-fotogalleri">
-                            <div class="fotofarve-container">
                     <img src="https://source.unsplash.com/Wpg3Qm0zaGk" alt="">
                             </div>    
-                        </div>
                     </div>
                 <div class="kolonne">
             <div class="ommig-fotogalleri">
-                <div class="fotofarveorange-container">
                     <img src="https://source.unsplash.com/W3FC_bCPw8E" alt="">
                     </div>
-                </div>
                         <div class="ommig-fotogalleri">
-                            <div class="fotofarve-container">
                     <img src="https://source.unsplash.com/rBRZLPVLQg0" alt="">
                             </div>    
-                        </div>
                         <div class="ommig-fotogalleri">
-                            <div class="fotofarveorange-container">
                     <img src="https://source.unsplash.com/OyCl7Y4y0Bk" alt="">
                 </div>    
-                        </div>
             </div>
         </div>
 </div>

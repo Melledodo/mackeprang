@@ -255,16 +255,6 @@ h2 {
     flex-direction: column;
   }
 }
-.fotofarve-container img {
-  border: 2px solid #FD8C4A;
-  padding: 0;
-}
-
-.fotofarveorange-container img {
-  border: 2px solid #354EC3;
-  padding: 0;
-}
-
 * {
   margin: 0;
 }
