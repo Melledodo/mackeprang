@@ -23,13 +23,13 @@ import { ref } from 'vue';
             <p class="psunderskrift">Er du i tvivl? Så lad os sammen finde ud af, hvad du mangler!</p>
         </div>
   </div>
-  <h2 class="sth2">Styling konsultation</h2>
 <div class="konsultation">
   <div class="konsultation-container">
     <div class="skfoto">
       <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
     </div>
     <div class="sktekst">
+      <h2 class="sth2">Styling konsultation</h2>
       <h3><b>1 times konsultation hjemme hos dig</b></h3>
       <p>
         Få en omfattende kropsanalyse og evaluering af din personlige stil og garderobe.
@@ -42,10 +42,10 @@ import { ref } from 'vue';
     </div>
   </div>
 </div>
-<h2 class="psh2">Personlig shopper</h2>
 <div class="psfelt">
   <div class="ps-container">
     <div class="pstekst">
+      <h2 class="psh2">Personlig shopper</h2>
       <h3><b>2 timers personlig shopping i byen</b></h3>
       <p>
         Jeg har nøje udvalgt butikker og tøj baseret på dine ønsker og indkøbsliste.
@@ -62,13 +62,13 @@ import { ref } from 'vue';
     </div>
   </div>
 </div>
-<h2 class="gh2">Garderobetjek</h2>
 <div class="garderobe">
   <div class="garderobe-container">
     <div class="garderobefoto">
       <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
     </div>
     <div class="garderobetekst">
+      <h2 class="gh2">Garderobetjek</h2>
       <h3><b>3 timers garderobetjek hjemme hos dig</b></h3>
       <p>
         Sammen skaber vi helt nye outfits ved at shoppe i din egen garderobe.
@@ -83,10 +83,10 @@ import { ref } from 'vue';
   </div>
 </div>
 
-<h2 class="gnh2">Girls night in</h2>
 <div class="gnfelt">
   <div class="gn-container">
     <div class="gntekst">
+      <h2 class="gnh2">Girls night in</h2>
       <h3><b>6-8 personers styling</b></h3>
       <p>
         Drømmer du om en stilfuld aften eller dag? Lad mig komme til dig og forvandle din garderobe med skønne snit, farver og geniale stylingtips! 
