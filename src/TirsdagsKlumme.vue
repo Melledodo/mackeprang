@@ -71,7 +71,7 @@ const closeModalTk = () => {
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">
         <h2>Tirsdags klumme tekst</h2>
-        <p>Her er en masse tekst om tirsdagsklummen fra tidligere engang for at illustrere</p>
+        <p>Her er en masse tekst om tirsdagsklummen fra tidligere engang for at illustrere.</p>
         <img src="https://source.unsplash.com/rBRZLPVLQg0" alt="portræt billede">
         </div>
       </div>

@@ -233,15 +233,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  z-index: 1000; /* Sørg for at modalen er forrest */
-  top: 30%;
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100vw;
-  height: 100vh;
-  background-color: #FDF6EF;
+  width: 400px;
+  height: auto;
+  max-width: 90%;
+  max-height: 90%;
+  background-color: rgba(255, 255, 255, 0.9);
   overflow: auto;
+  padding: 20px;
 }
 
 /* Modal indhold */
@@ -254,12 +257,11 @@ body {
 }
 
 .closetk {
-  color: #aaa;
+  color: black;
   float: right;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: bold;
   cursor: pointer;
-  padding: 20px;
 }
 
 .closetk:hover,
@@ -280,21 +282,19 @@ body {
 }
 
 .modalbillede-container {
-  position: relative;
   display: flex;
-  flex-direction: column; /* Stak indholdet lodret */
-  align-items: center; /* Centrer indhold vandret */
-}
-.modalbillede-container p {
-  font-size: 1.5rem;
-  text-align: left;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
 }
 
 .modalbillede-container img {
-  width: 100%; /* Billedet fylder bredden af containeren */
-  height: 100%; /* Billedet tilpasses automatisk i højden */
-  -o-object-fit: cover;
-     object-fit: cover; /* Skalér billedet så det passer og beskæres om nødvendigt */
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 body {
