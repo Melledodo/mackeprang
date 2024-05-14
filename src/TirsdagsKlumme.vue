@@ -65,18 +65,18 @@ const closeModalTk = () => {
             <p class="tkknap-tekst">Læs mere</p>
         </div>
       </div>
-  </div>    
-      
-  <div v-if="modalType === 'tirsdagKlumme' && isModalOpen" class="modaltk">
+
+        <div v-if="modalType === 'tirsdagKlumme' && isModalOpen" class="modaltk">
       <div class="modal-indhold">
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">
         <h2>Tirsdags klumme tekst</h2>
         <p>Her er en masse tekst om tirsdagsklummen fra tidligere engang for at illustrere</p>
-        <img src="https://source.unsplash.com/rBRZLPVLQg0" alt="portræt billede" class="klumme1-billede">
+        <img src="https://source.unsplash.com/rBRZLPVLQg0" alt="portræt billede">
         </div>
       </div>
-    </div>
+      </div>
+</div>
 
 
 

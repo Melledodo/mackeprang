@@ -73,6 +73,7 @@ body {
     justify-content: center; 
     margin: 20px 0; 
     flex-wrap: wrap;
+    position: relative;
   }
   
   .tkbilleder {
@@ -93,22 +94,23 @@ body {
   }
 
   .modaltk {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    z-index: 999;
-    left: 0;
-    top: 0;
-    transform: translate(50%, 50%);
-    width: 60%;
-    height: 60%;
-    background-color: $background-color; 
-    overflow: auto;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1000; /* Sørg for at modalen er forrest */
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  background-color: $background-color;
+  overflow: auto;
+}
   
   /* Modal indhold */
   .modal-indhold {
+    position: relative;
     padding: 20px;
     border-radius: 10px;
     overflow-y: auto; 
@@ -141,19 +143,21 @@ body {
   }
 
 .modalbillede-container{
-display: flex;
-flex-direction: column; /* Stak indholdet lodret */
-align-items: center; /* Centrer indhold vandret */
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stak indholdet lodret */
+    align-items: center; /* Centrer indhold vandret */
     p{
         font-size: 1.5rem;
         text-align: left;
     }
-    img{
-        align-items: right;
-    }
+
 }
 
-  .klumme1-billede{
-width: 100%;
-height: auto;
+  .modalbillede-container img {
+    width: 100%; /* Billedet fylder bredden af containeren */
+    height: 100%; /* Billedet tilpasses automatisk i højden */
+    object-fit: cover; /* Skalér billedet så det passer og beskæres om nødvendigt */
   }
+  
+
