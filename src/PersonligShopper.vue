@@ -38,7 +38,9 @@ import { ref } from 'vue';
         <br>Efter vores session vil du modtage omfattende materiale med billeder, kropsanalyse og anbefalinger til former, farver og snit, der passer perfekt til dig.
       </p>
       <div class="pris">900,-</div>
+      <a href="/bookher">
       <button class="bookknapps">BOOK HER</button>
+      </a>
     </div>
   </div>
 </div>
@@ -55,7 +57,9 @@ import { ref } from 'vue';
         <br>God stil behøver ikke være dyrt! Når vi shopper sammen, tager vi udgangspunkt i dit budget.
       </p>
       <div class="pris">1600,-</div>
+      <a href="/bookher">
       <button class="bookknapps">BOOK HER</button>
+      </a>
     </div>
     <div class="psfoto">
       <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
@@ -78,7 +82,9 @@ import { ref } from 'vue';
         <br>Efter vores session modtager du personlige tips, outfitbilleder og din indkøbsliste til at guide dig fremover i dit tøjvalg.
       </p>
       <div class="pris">1900,-</div>
+      <a href="/bookher">
       <button class="bookknapps">BOOK HER</button>
+      </a>
     </div>
   </div>
 </div>
@@ -93,7 +99,9 @@ import { ref } from 'vue';
         <br>Det handler om at genopdage din stil på en spændende måde! 
       </p>
       <div class="pris">300,- pr. person.</div>
+      <a href="/bookher">
       <button class="bookknapps">BOOK HER</button>
+      </a>
     </div>
     <div class="gnfoto">
       <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
