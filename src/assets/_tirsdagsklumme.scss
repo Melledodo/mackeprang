@@ -1,0 +1,159 @@
+$primary-color: #354EC3;
+$secondary-color: #FD8C4A;
+$background-color: #FDF6EF;
+
+
+body {
+    background-color: $background-color; 
+    margin: 0; 
+    padding: 0; 
+  }
+
+  .tk-indhold {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .klumme-content {
+    flex: 1; 
+    padding-right: 20px; 
+    margin-left: 50px;
+    margin-top: 50px;
+
+    h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    p{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+  }
+  
+  .klummebillede {
+    width: 40%;
+    height: 40%;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  
+  .klummebillede img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+@media (max-width: 768px) {
+    .tk-indhold {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .klummebillede {
+        width: 80%; 
+        height: auto; 
+        margin-top: 20px; 
+        margin-right: 0; 
+    }
+  }
+  
+
+
+
+  .tkbilleder img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+  }
+  
+  .tkbilleder-container {
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0; 
+    flex-wrap: wrap;
+  }
+  
+  .tkbilleder {
+    margin: 0 10px; 
+    max-width: 400px; 
+    margin: 0 50px;
+    width: 100%; 
+    height: 100%; 
+  }
+  
+  .tidligereklumme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: $secondary-color;
+  }
+
+  .modaltk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    transform: translate(50%, 50%);
+    width: 60%;
+    height: 60%;
+    background-color: $background-color; 
+    overflow: auto;
+  }
+  
+  /* Modal indhold */
+  .modal-indhold {
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto; 
+    max-height: 80%;
+  }
+  
+  .closetk {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 20px;
+  }
+  
+  .closetk:hover,
+  .closetk:focus {
+    color: $primary-color;
+    text-decoration: none;
+  }
+
+  .modalknaptk{
+    cursor: pointer;
+    text-decoration: underline;
+    color: $secondary-color;
+  }
+  .modalknaptk:hover {
+    color: $primary-color; 
+    text-decoration: underline; 
+  }
+
+.modalbillede-container{
+display: flex;
+flex-direction: column; /* Stak indholdet lodret */
+align-items: center; /* Centrer indhold vandret */
+    p{
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    img{
+        align-items: right;
+    }
+}
+
+  .klumme1-billede{
+width: 100%;
+height: auto;
+  }
