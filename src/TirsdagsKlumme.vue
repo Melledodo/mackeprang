@@ -49,9 +49,11 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
 <section class="tk-indhold">
     <div class="database-items">
       <div v-for="(item, index) in databaseItems" :key="index" class="database-item">
-        <h2>{{ item.billeder[0].title }}</h2>
           <div class="billede-api">
+            <div class="api-tekst">
+            <h2>{{ item.billeder[0].title }}</h2>
             <p>{{ item.billeder[0].billedtekst }}</p>
+            </div>
             <img :src="item.billeder[0].billede" :alt="'Billede'">
         </div>
       </div>
