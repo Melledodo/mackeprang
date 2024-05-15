@@ -17,7 +17,7 @@ const databaseItems = ref([]);
 
 const requestOptions = {method: 'GET',};
 
-fetch('', requestOptions)
+fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/indhold.json', requestOptions)
   .then(response => response.json())
   .then(data => {
     databaseItems.value = data;
