@@ -156,47 +156,12 @@ body {
   align-items: flex-start;
 }
 
-.klumme-content {
-  flex: 1;
-  padding-right: 20px;
-  margin-left: 50px;
-  margin-top: 50px;
-}
-.klumme-content h2 {
-  font-size: 2rem;
-  text-align: center;
-}
-.klumme-content p {
-  font-size: 2rem;
-  text-align: center;
-}
-
-.klummebillede {
-  width: 40%;
-  height: 40%;
-  margin-top: 50px;
-  margin-right: 50px;
-}
-
-.klummebillede img {
-  max-width: 100%;
+.billede-api {
+  width: 100%;
   height: auto;
-  display: block;
-  margin: 0 auto;
+  background-color: pink;
 }
 
-@media (max-width: 768px) {
-  .tk-indhold {
-    flex-direction: column;
-    align-items: center;
-  }
-  .klummebillede {
-    width: 80%;
-    height: auto;
-    margin-top: 20px;
-    margin-right: 0;
-  }
-}
 .tkbilleder img {
   max-width: 100%;
   height: auto;
@@ -407,6 +372,101 @@ h2 {
     flex-direction: column;
   }
 }
+.siden {
+  height: auto;
+  width: auto;
+  display: flex;
+}
+
+.billede {
+  height: 830px;
+  width: 595px;
+  border: solid 3px;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cecilie {
+  height: 100%;
+}
+
+form {
+  height: 830px;
+  width: 600px;
+  border: solid 3px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  margin: 10px;
+}
+
+#navn {
+  height: 30px;
+  margin: 10px;
+}
+
+#telefonnummer {
+  height: 30px;
+  margin: 10px;
+}
+
+#email {
+  height: 30px;
+  margin: 10px;
+}
+
+#besked {
+  height: 200px;
+  margin: 10px;
+}
+
+#indsend {
+  height: 30px;
+  margin: 10px;
+  margin-top: 20px;
+  background-color: #cf7c6b;
+}
+
+.admin {
+  height: 400px;
+  width: 1410px;
+  border: solid 3px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailboks {
+  height: 350px;
+  width: 1410px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.kontaktliste {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.kontakt {
+  width: 650px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  flex: 1 0 calc(50% - 20px);
+}
+
 * {
   margin: 0;
 }

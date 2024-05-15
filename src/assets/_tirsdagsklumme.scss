@@ -14,49 +14,13 @@ body {
     align-items: flex-start;
   }
   
-  .klumme-content {
-    flex: 1; 
-    padding-right: 20px; 
-    margin-left: 50px;
-    margin-top: 50px;
-
-    h2{
-        font-size: 2rem;
-        text-align: center;
-    }
-    p{
-        font-size: 2rem;
-        text-align: center;
-    }
-    
-  }
   
-  .klummebillede {
-    width: 40%;
-    height: 40%;
-    margin-top: 50px;
-    margin-right: 50px;
-  }
   
-  .klummebillede img {
-    max-width: 100%;
+.billede-api{
+    width: 100%;
     height: auto;
-    display: block;
-    margin: 0 auto;
-  }
-@media (max-width: 768px) {
-    .tk-indhold {
-      flex-direction: column; 
-      align-items: center; 
-    }
-  
-    .klummebillede {
-        width: 80%; 
-        height: auto; 
-        margin-top: 20px; 
-        margin-right: 0; 
-    }
-  }
+    background-color: pink;
+}
   
 
 

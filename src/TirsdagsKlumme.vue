@@ -46,32 +46,18 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
       </nav>
     </header>
 
-    <section class="tk-indhold">
-  <div class="klumme-content">
-    <h2>Denne uge skal jeg arbejde med.....</h2>
-    <p>Alle mulige seje ting og mennesker, det bliver bare så fedt og SÅÅÅÅ SJOVT</p>
-  </div>
-
-  <div class="klummebillede">
-    <img src="https://source.unsplash.com/W3FC_bCPw8E" alt="portræt billede">
-  </div>
-      <div class="database-container">
-        <div class="database-items">
-          <div v-for="(item, index) in databaseItems" :key="index" class="database-item">
-            <h2>{{ item.title }}</h2>
-            <div class="image-boxes">
-              <div v-for="(billede, billedeIndex) in item.billeder" :key="billedeIndex" class="image-box">
-                <div class="image-wrapper">
-                  <img :src="billede.billede" :alt="'Billede' + (billedeIndex + 1)">
-                  <p>{{ billede.billedtekst }}</p>
-                </div>
-              </div>
-            </div>
-          </div>
+<section class="tk-indhold">
+    <div class="database-items">
+      <div v-for="(item, index) in databaseItems" :key="index" class="database-item">
+        <h2>{{ item.title }}</h2>
+          <div class="billede-api">
+            <p>{{ item.billeder[0].billedtekst }}</p>
+            <img :src="item.billeder[0].billede" :alt="'Billede'">
         </div>
       </div>
-    </section>
-  
+    </div>
+</section>
+
 
 <div class="tidligereklumme">
   <h1>Tidligere klummer</h1>
