@@ -88,7 +88,7 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
         </div>
       </div>
 
-        <div v-if="modalType === 'tirsdagKlumme1' && isModalOpen" class="modaltk">
+        <div v-if="modalType === 'tirsdagKlumme1' && isModalOpen" class="modaltk tirsdagKlumme1-modal">
       <div class="modal-indhold">
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">
@@ -98,7 +98,7 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
         </div>
       </div>
       </div>
-      <div v-if="modalType === 'tirsdagKlumme2' && isModalOpen" class="modaltk">
+      <div v-if="modalType === 'tirsdagKlumme2' && isModalOpen" class="modaltk tirsdagKlumme2-modal">
       <div class="modal-indhold">
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">
@@ -108,7 +108,7 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
         </div>
       </div>
       </div>
-      <div v-if="modalType === 'tirsdagKlumme3' && isModalOpen" class="modaltk">
+      <div v-if="modalType === 'tirsdagKlumme3' && isModalOpen" class="modaltk tirsdagKlumme3-modal">
       <div class="modal-indhold">
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">

@@ -90,6 +90,25 @@ body {
     background-color: rgba(255, 255, 255, 0.9); 
     padding: 20px; 
   }
+
+
+.tirsdagKlumme1-modal {
+  position: absolute;
+  top: calc(60% - 60px); 
+  left: calc(33% - 200px);
+}
+
+.tirsdagKlumme2-modal {
+  position: absolute;
+  top: calc(60% - 60px); 
+  left: calc(62% - 200px); 
+}
+
+.tirsdagKlumme3-modal {
+  position: absolute;
+  top: calc(60% - 60px); 
+  left: calc(92% - 200px); 
+}
   
   
   /* Modal indhold */
@@ -138,6 +157,5 @@ body {
     max-width: 100%;  
  
 }
-  
   
 
