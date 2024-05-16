@@ -69,31 +69,51 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
 
       <div class="tkbilleder">
         <img src="https://source.unsplash.com/55btQzyDiO8" alt="portræt billede">
-          <div class="modalknaptk" @click="openModalTk('tirsdagKlumme')">
+          <div class="modalknaptk" @click="openModalTk('tirsdagKlumme1')">
             <p class="tkknap-tekst">Læs mere</p>
           </div>
       </div>
 
       <div class="tkbilleder">
         <img src="https://source.unsplash.com/55btQzyDiO8" alt="portræt billede">
-          <div class="modalknaptk" @click="openModalTk('tirsdagKlumme')">
+          <div class="modalknaptk" @click="openModalTk('tirsdagKlumme2')">
             <p class="tkknap-tekst">Læs mere</p>
         </div>
       </div>
         
       <div class="tkbilleder">
         <img src="https://source.unsplash.com/55btQzyDiO8" alt="portræt billede">
-          <div class="modalknaptk" @click="openModalTk('tirsdagKlumme')">
+          <div class="modalknaptk" @click="openModalTk('tirsdagKlumme3')">
             <p class="tkknap-tekst">Læs mere</p>
         </div>
       </div>
 
-        <div v-if="modalType === 'tirsdagKlumme' && isModalOpen" class="modaltk">
+        <div v-if="modalType === 'tirsdagKlumme1' && isModalOpen" class="modaltk">
       <div class="modal-indhold">
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">
         <h2>Tirsdags klumme tekst</h2>
         <p>Her er en masse tekst om tirsdagsklummen fra tidligere engang for at illustrere.</p>
+        <img src="https://source.unsplash.com/rBRZLPVLQg0" alt="portræt billede">
+        </div>
+      </div>
+      </div>
+      <div v-if="modalType === 'tirsdagKlumme2' && isModalOpen" class="modaltk">
+      <div class="modal-indhold">
+        <span class="closetk" @click="closeModalTk">&times;</span>
+        <div class="modalbillede-container">
+        <h2>Tirsdags klumme tekst</h2>
+        <p>Styling tips uge 30</p>
+        <img src="https://source.unsplash.com/rBRZLPVLQg0" alt="portræt billede">
+        </div>
+      </div>
+      </div>
+      <div v-if="modalType === 'tirsdagKlumme3' && isModalOpen" class="modaltk">
+      <div class="modal-indhold">
+        <span class="closetk" @click="closeModalTk">&times;</span>
+        <div class="modalbillede-container">
+        <h2>Tirsdags klumme tekst</h2>
+        <p>Styling tip uge 12</p>
         <img src="https://source.unsplash.com/rBRZLPVLQg0" alt="portræt billede">
         </div>
       </div>
