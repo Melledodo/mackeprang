@@ -23,6 +23,7 @@ import { ref } from 'vue';
             <p class="psunderskrift">Er du i tvivl? Så lad os sammen finde ud af, hvad du mangler!</p>
         </div>
   </div>
+  
 <div class="konsultation">
   <div class="konsultation-container">
     <div class="skfoto">
