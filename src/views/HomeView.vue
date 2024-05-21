@@ -38,8 +38,8 @@ const closeModal = () => {
 </section>
 <section id="contentkonsulentafsnit">
   <div id="forsidekonsulentbilleder">
-    <img id="konsulentstortbillede" src="@/assets/mackeprang1.png" alt="">
-    <img id="konsulentlillebillede" src="@/assets/mackeprang2.png" alt="">
+    <img id="konsulentstortbillede" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/gra%CC%8Am6.webp?alt=media&token=eeb43b95-faab-4826-afbc-27064cbae029" alt="">
+    <img id="konsulentlillebillede" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/gra%CC%8Am7.webp?alt=media&token=b7f267fe-7da6-41bc-bad3-892ea056ca6d" alt="">
   </div>
   <div id="forsidekonsulenttekstboks">
     <h1 id="konsulentoverskrift">CONTENT CREATOR & <br>
