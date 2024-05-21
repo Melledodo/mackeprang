@@ -23,6 +23,7 @@ import { ref } from 'vue';
             <p class="psunderskrift">Er du i tvivl? Så lad os sammen finde ud af, hvad du mangler!</p>
         </div>
   </div>
+
 <div class="konsultation">
   <div class="konsultation-container">
     <div class="skfoto">
@@ -78,8 +79,7 @@ import { ref } from 'vue';
         Sammen skaber vi helt nye outfits ved at shoppe i din egen garderobe.
         <br>Vi skaber orden i kaos og forvandler din garderobe.
         <br>Jeg guider dig til de perfekte styles og snit, der passer til din personlige stil og figur.
-        <br>Vi foreviger alle dine nye sæt med professionelle billeder.
-        <br>Efter vores session modtager du personlige tips, outfitbilleder og din indkøbsliste til at guide dig fremover i dit tøjvalg.
+        <br>Efter vores session modtager du outfitbilleder og indkøbsliste til at guide dig fremover i dit tøjvalg.
       </p>
       <div class="pris">1900,-</div>
       <a href="/bookher">
@@ -93,12 +93,13 @@ import { ref } from 'vue';
   <div class="gn-container">
     <div class="gntekst">
       <h2 class="gnh2">Girls night in</h2>
-      <h3><b>6-8 personers styling</b></h3>
+      <h3><b>1-2 timers styling</b></h3>
       <p>
         Drømmer du om en stilfuld aften eller dag? Lad mig komme til dig og forvandle din garderobe med skønne snit, farver og geniale stylingtips! 
+        <br>I kan være 6-8 personer. Jeg er forberedt inde på jeres kropstyper og alder! 
         <br>Det handler om at genopdage din stil på en spændende måde! 
       </p>
-      <div class="pris">300,- pr. person.</div>
+      <div class="pris">300,- pr. person</div>
       <a href="/bookher">
       <button class="bookknapps">BOOK HER</button>
       </a>
