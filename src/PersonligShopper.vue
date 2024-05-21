@@ -93,9 +93,10 @@ import { ref } from 'vue';
   <div class="gn-container">
     <div class="gntekst">
       <h2 class="gnh2">Girls night in</h2>
-      <h3><b>6-8 personers styling</b></h3>
+      <h3><b>1-2 timers styling</b></h3>
       <p>
         Drømmer du om en stilfuld aften eller dag? Lad mig komme til dig og forvandle din garderobe med skønne snit, farver og geniale stylingtips! 
+        <br>I kan være 6-8 personer. Jeg er forberedt inde på jeres kropstyper og alder! 
         <br>Det handler om at genopdage din stil på en spændende måde! 
       </p>
       <div class="pris">300,- pr. person.</div>
