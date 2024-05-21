@@ -26,7 +26,7 @@ import { ref } from 'vue';
 <div class="konsultation">
   <div class="konsultation-container">
     <div class="skfoto">
-      <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
+      <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/farveM1.webp?alt=media&token=42933b78-cc1e-41c8-a5a4-ebeb34fa9a66" alt="Billede">
     </div>
     <div class="sktekst">
       <h2 class="sth2">Styling konsultation</h2>
@@ -62,14 +62,14 @@ import { ref } from 'vue';
       </a>
     </div>
     <div class="psfoto">
-      <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
+      <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/farvem3.webp?alt=media&token=9f071211-d3c8-4b9d-bdb3-1581fe7aa10f" alt="Billede">
     </div>
   </div>
 </div>
 <div class="garderobe">
   <div class="garderobe-container">
     <div class="garderobefoto">
-      <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
+      <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/farvem2.webp?alt=media&token=39ebea6a-5b61-44e0-996f-20b6f7b08b06" alt="Billede">
     </div>
     <div class="garderobetekst">
       <h2 class="gh2">Garderobetjek</h2>
@@ -104,7 +104,7 @@ import { ref } from 'vue';
       </a>
     </div>
     <div class="gnfoto">
-      <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg" alt="Billede">
+      <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/farvem4.webp?alt=media&token=101c758a-9cdc-4a3a-91c5-cf8169e104bd" alt="Billede">
     </div>
   </div>
 </div>
