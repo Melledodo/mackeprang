@@ -40,7 +40,7 @@ import { ref } from 'vue';
 
             <div class="kolonne">
                 <div class="ommig-fotogalleri">
-                    <img src="https://source.unsplash.com/OyCl7Y4y0Bk" alt="">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke0.webp?alt=media&token=f298d60f-6efa-43d4-a388-9d3ccbdc9b2c&fbclid=IwZXh0bgNhZW0CMTAAAR2SCB5lJzyxiWA7wnyMjUjsJ5l_ICiQnM6ovXGBKJrQhNQqyVPQ-_KxFGU_aem_ASFZVDfMV1vW_PLM5zz5ynXh4g-x30jvkTE81OeDnSykeA6oaIdf7fQlIuIRJ-RwmGr6tXI-7V2pd2-I1M87Zi5W" alt="ceciliemedkaf">
                 </div>
                         <div class="ommig-fotogalleri">
                     <img src="https://source.unsplash.com/Kl1gC0ve620" alt="">
