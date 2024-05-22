@@ -21,7 +21,7 @@ import { ref } from 'vue';
     <source src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/Personlig%20shopper.mp4?alt=media&token=db6199a4-16fa-4e54-a987-243daca1c2f8" type="video/mp4">
   </video>
         <div class="psvideo-tekst">
-            <h2 class="psoverskriftvideo">Personlig shopper</h2>
+            <h2 class="psoverskriftvideo">PERSONLIG SHOPPER</h2>
             <p class="psunderskrift">Er du i tvivl? Så lad os sammen finde ud af, hvad du mangler!</p>
         </div>
   </div>
