@@ -1,6 +1,12 @@
 <script setup>
 import { ref } from 'vue';
 
+const isResponsive = ref(false);
+
+function hamburgerFunktion() {
+  isResponsive.value = !isResponsive.value;
+}
+
 const isModalOpen = ref(false);
 const modalType = ref('');
 
@@ -32,17 +38,20 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
 </script>
 
 <template>
-  <header id="personligshopper-header">
-    <a href="/">
-    <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
-    </a>
+  <header>
+      <a href="/">
+        <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
+      </a>
       <nav>
-        <ul>
-            <li><a href="/personligshopper">Personlig Shopper</a></li>
-            <li><a href='/tirsdagsklumme'>Tirsdagsklumme</a></li>
-            <li><a href='/ommig'>Om mig</a></li>
-            <li><a id="bookmenuknap" href='/bookher'>Book her</a></li>
-        </ul>
+        <div class="topnav" :class="{ 'responsive': isResponsive }" id="myTopnav">
+          <a href="/personligshopper">Personlig Shopper</a>
+          <a href='/tirsdagsklumme'>Tirsdagsklumme</a>
+          <a href='/ommig'>Om mig</a>
+          <a id="bookmenuknap" href='/bookher'>Book her</a>
+          <a href="javascript:void(0);" class="icon" @click="hamburgerFunktion">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
       </nav>
     </header>
 
