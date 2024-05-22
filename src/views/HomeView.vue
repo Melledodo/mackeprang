@@ -2,13 +2,10 @@
 
 import { ref } from 'vue';
 
+const isResponsive = ref(false);
+
 function hamburgerFunktion() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += "responsive";
-  } else {
-    x.className = "topnav";
-  }
+  isResponsive.value = !isResponsive.value;
 }
 
 const isModalOpen = ref(false);
@@ -28,22 +25,22 @@ const closeModal = () => {
 <template>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <section id="bannerbilledeafsnit">
-  <header>
-    <a href="/">
-    <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
-    </a>
-  <nav>
-  <div class="topnav" id="myTopnav">
-  <a href="/personligshopper">Personlig Shopper</a>
-  <a href='/tirsdagsklumme'>Tirsdagsklumme</a>
-  <a href='/ommig'>Om mig</a>
-  <a id="bookmenuknap" href='/bookher'>Book her</a>
-  <a href="javascript:void(0);" class="icon" onclick="hamburgerFunktion()">
-  <i class="fa fa-bars"></i>
-  </a>
-  </div>
-  </nav>
-  </header>
+  <header id="forsideheader">
+      <a href="/">
+        <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
+      </a>
+      <nav>
+        <div class="topnav" :class="{ 'responsive': isResponsive }" id="myTopnav">
+          <a href="/personligshopper">Personlig Shopper</a>
+          <a href='/tirsdagsklumme'>Tirsdagsklumme</a>
+          <a href='/ommig'>Om mig</a>
+          <a id="bookmenuknap" href='/bookher'>Book her</a>
+          <a href="javascript:void(0);" class="icon" @click="hamburgerFunktion">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
 
   <h1 id="bannerbilledeoverskrift" >Cecilie Mackeprang</h1>
   <p id="bannerbilledeundertekst" >Content creator, personlig stylist & konsulent</p>
