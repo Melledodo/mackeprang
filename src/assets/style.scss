@@ -11,10 +11,15 @@ $background-color: #FDF6EF;
     margin: 0;
 }
 #logo {
-    width: 10%;
+    width: 13%;
     position: absolute;
     padding: 15px;
   }
+  @media screen and (max-width: 800px) {
+    #logo{
+      width: 30%;
+    }}
+
   #forsideheader{
     .topnav{
     background-color: transparent;
@@ -22,10 +27,9 @@ $background-color: #FDF6EF;
   }
   
   nav {
-    
     .topnav {
       display: flex;
-      justify-content: right;
+      justify-content: flex-end;
       overflow: hidden;
       background-color: $primary-color;
       width: 100%;
@@ -44,15 +48,16 @@ $background-color: #FDF6EF;
     .topnav a:hover {
       color: $secondary-color;
     }
-
-    #bookmenuknap{
-        padding: 14px 25px;
-        color: $secondary-color;
-        text-decoration: none;
-        font-size: 25px;
-    &:hover{
+  
+    #bookmenuknap {
+      padding: 14px 25px;
+      color: $secondary-color;
+      text-decoration: none;
+      font-size: 25px;
+      &:hover {
         color: $background-color;
-    }}
+      }
+    }
   
     .topnav .icon {
       display: none;
@@ -60,34 +65,55 @@ $background-color: #FDF6EF;
     }
   
     @media screen and (max-width: 800px) {
-      .topnav{
+      .topnav {
         background-color: $primary-color;
+        flex-direction: column;
+        align-items: flex-end;
       }
+  
       .topnav a {
         display: none;
       }
+  
       .topnav a.icon {
-        float: right;
         display: block;
       }
     }
   
     @media screen and (max-width: 800px) {
+      #logo{
+        width: 40%;
+      }
       .topnav.responsive {
         position: relative;
+        flex-direction: column;
+        align-items: flex-end;
       }
+  
       .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
       }
+  
       .topnav.responsive a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: right;
+        width: 100%;
+        padding: 10px 25px; /* Adjusted padding for closer spacing */
+      }
+  
+      .topnav.responsive a:not(.icon) {
+        margin-top: 0px; /* Add margin to push menu items down */
+      }
+  
+      .topnav.responsive a:first-child {
+        margin-top: 40px; /* Adjust this value if necessary */
       }
     }
   }
+  
   
 
 #personligshopper-header{
