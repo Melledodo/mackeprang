@@ -250,16 +250,30 @@ nav{
     }
 }
 #personligshopperafsnit{
-    height: 700px;
+    height: 80vh;
     width: 100%;
-    background-image: url('@/assets/videotestbillede.png');
-    background-size: cover;
     background-position: center;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+
+    #forsidevideo{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    object-fit: cover;
+    }
+
+    .forsidevideotekstboks{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-width: 80%;
+    }
 
     #forsidevideooverskrift{
     color: $secondary-color;

@@ -115,11 +115,16 @@ const closeModal = () => {
 
 </section>
 <section id="personligshopperafsnit">
+  <video id="forsidevideo" autoplay loop muted>
+    <source src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/C0098.mp4?alt=media&token=09c3b56e-991a-41aa-aab3-033fd864602a" type="video/mp4">
+  </video>
+  <div class="forsidevideotekstboks">
   <h1 id="forsidevideooverskrift">PERSONLIG SHOPPER</h1>
   <p id="forsidevideotekst">Er du i tvivl? Så lad os sammen finde ud af, hvad du mangler.</p>
   <a href="/personligshopper">
-  <button id="bookherknap">LÆS MERE</button>
+  <button id="bookherknap">LÆS MERE</button> 
   </a>
+</div>
 
 </section>
 <section id="anbefalingerafsnit">
