@@ -147,10 +147,11 @@ body {
   bottom: 0;
   width: 100%;
   background-color: $primary-color;
-  color: white;
+  color: #FDF6EF;
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  
 }
 
 .footer p,
@@ -167,17 +168,15 @@ body {
   }
 }
 
-.kontakt-info {
+.kontaktfooter-info {
   display: flex;
   flex-direction: row;
-  gap: 3rem;
   color: #FDF6EF;
   align-items: center;
 }
 
 .tidligerehjemmeside {
   color: #FDF6EF;
-  align-items: center;
 }
 
 
