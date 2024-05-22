@@ -100,7 +100,16 @@ getKontakt();
     </div>
 </div>
 
-    <footer>
-        
-    </footer>
+<footer>
+<section class="kontaktfooter-info">
+    
+      <div class="indholdfooter">
+        <p>© 2024 Mackeprang</p>
+            <a href="https://www.pscecilie.dk/" class="tidligerehjemmeside">pscecilie.dk</a>
+          <p>Email: book@pscecilie.dk</p>
+        <p>Telefon: +45 40 19 49 54</p>
+      </div>
+</section>
+</footer>
+
 </template>
