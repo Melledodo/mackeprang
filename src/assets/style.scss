@@ -75,6 +75,7 @@ $background-color: #FDF6EF;
     @media screen and (max-width: 800px) {
       .topnav.responsive {
         position: relative;
+        flex-direction: column;
       }
       .topnav.responsive .icon {
         position: absolute;
@@ -84,7 +85,7 @@ $background-color: #FDF6EF;
       .topnav.responsive a {
         float: none;
         display: block;
-        text-align: left;
+        text-align: right;
       }
     }
   }
