@@ -11,10 +11,15 @@ $background-color: #FDF6EF;
     margin: 0;
 }
 #logo {
-    width: 10%;
+    width: 13%;
     position: absolute;
     padding: 15px;
   }
+  @media screen and (max-width: 800px) {
+    #logo{
+      width: 30%;
+    }}
+
   #forsideheader{
     .topnav{
     background-color: transparent;
@@ -76,6 +81,9 @@ $background-color: #FDF6EF;
     }
   
     @media screen and (max-width: 800px) {
+      #logo{
+        width: 40%;
+      }
       .topnav.responsive {
         position: relative;
         flex-direction: column;
