@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
   padding: 0;
 }
-.psvideo-container .psvideo {
+.psvideo-container #psvideo {
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -68,6 +68,7 @@ body {
   max-width: 80%;
   padding: 0 30px;
   box-sizing: border-box;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 768px) {
@@ -705,16 +706,29 @@ nav #bookmenuknap:hover {
 }
 
 #personligshopperafsnit {
-  height: 700px;
+  height: 80vh;
   width: 100%;
-  background-image: url("@/assets/videotestbillede.png");
-  background-size: cover;
   background-position: center;
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+#personligshopperafsnit #forsidevideo {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#personligshopperafsnit .forsidevideotekstboks {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 80%;
 }
 #personligshopperafsnit #forsidevideooverskrift {
   color: #FD8C4A;
@@ -761,7 +775,7 @@ nav #bookmenuknap:hover {
   height: 350px;
   width: 400px;
   background-color: antiquewhite;
-  border: solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 50px;
   display: flex;
   flex-direction: column;
