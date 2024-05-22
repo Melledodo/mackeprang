@@ -38,6 +38,7 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
 </script>
 
 <template>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <header>
       <a href="/">
         <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
