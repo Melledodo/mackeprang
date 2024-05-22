@@ -1,5 +1,11 @@
 <script setup>
 import { ref } from 'vue';
+
+const isResponsive = ref(false);
+
+function hamburgerFunktion() {
+  isResponsive.value = !isResponsive.value;
+}
 </script>
 
 <template>
