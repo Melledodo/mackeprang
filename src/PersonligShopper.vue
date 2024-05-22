@@ -3,17 +3,21 @@ import { ref } from 'vue';
 </script>
 
 <template>
-  <header id="personligshopper-header">
-    <a href="/">
-    <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
-    </a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <header>
+      <a href="/">
+        <img id="logo" src="@/assets/mackepranglogo.png" alt="mackepranglogo">
+      </a>
       <nav>
-        <ul>
-            <li><a href="/personligshopper">Personlig Shopper</a></li>
-            <li><a href='/tirsdagsklumme'>Tirsdagsklumme</a></li>
-            <li><a href='/ommig'>Om mig</a></li>
-            <li><a id="bookmenuknap" href='/bookher'>Book her</a></li>
-        </ul>
+        <div class="topnav" :class="{ 'responsive': isResponsive }" id="myTopnav">
+          <a href="/personligshopper">Personlig Shopper</a>
+          <a href='/tirsdagsklumme'>Tirsdagsklumme</a>
+          <a href='/ommig'>Om mig</a>
+          <a id="bookmenuknap" href='/bookher'>Book her</a>
+          <a href="javascript:void(0);" class="icon" @click="hamburgerFunktion">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
       </nav>
     </header>
   <div class="psvideo-container">
