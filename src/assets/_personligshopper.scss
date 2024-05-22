@@ -141,42 +141,47 @@ body {
 }
 
 
-.footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: $primary-color;
-  color: #FDF6EF;
-  text-align: center;
+footer {
   display: flex;
   justify-content: center;
-  
-}
-
-.footer p,
-.footer a {
-  margin: 0;
-  font-size: 18px;
-  color: #FDF6EF;
-}
-
-@media (max-width: 768px) {
-  .footer {
-    flex-direction: column;
-    align-items: center;
-  }
+  margin-bottom: 0;
+  width: 100%;
 }
 
 .kontaktfooter-info {
-  display: flex;
-  flex-direction: row;
-  color: #FDF6EF;
-  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-.tidligerehjemmeside {
-  color: #FDF6EF;
+.indholdfooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
+
+.indholdfooter p, .indholdfooter a {
+  color: $background-color;
+  font-size: 18px;
+}
+
+.indholdfooter a {
+  text-decoration: underline;
+  color: $background-color;
+  font-size: 18px;
+}
+
+@media (max-width: 786px) {
+  .indholdfooter {
+    flex-direction: column;
+  }
+
+  .indholdfooter p, .indholdfooter a {
+    font-size: 16px;
+  }
+}
+
 
 
