@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   background-color: #FDF6EF;
   margin: 0;
@@ -101,7 +100,7 @@ body {
 .sktekst p, .pstekst p, .garderobetekst p, .gntekst p {
   text-align: left;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 18px;
   list-style-type: circle;
 }
 .sktekst .pris, .pstekst .pris, .garderobetekst .pris, .gntekst .pris {
@@ -126,7 +125,7 @@ body {
 .kontaktfooter-info {
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0;
 }
 
 .indholdfooter {
@@ -297,10 +296,6 @@ body {
   height: auto;
 }
 
-.modalbillede-container img {
-  max-width: 100%;
-}
-
 body {
   background-color: #FDF6EF;
   margin: 0;
@@ -309,7 +304,7 @@ body {
 
 .ommig-indhold {
   display: flex;
-  flex-direction: column; /* Ændrer til lodret layout */
+  flex-direction: column;
   align-items: center;
   position: relative;
 }
@@ -329,7 +324,7 @@ body {
 
 p {
   font-size: 24px;
-  text-align: justify;
+  text-align: left;
 }
 
 h2 {
@@ -593,10 +588,12 @@ nav .topnav .icon {
   margin-top: 200px;
   font-size: 65px;
   color: #FD8C4A;
+  margin-left: 40px;
 }
 #bannerbilledeafsnit #bannerbilledeundertekst {
   font-size: 25px;
   color: #FD8C4A;
+  margin-left: 45px;
 }
 
 #contentkonsulentafsnit {
@@ -723,12 +720,13 @@ nav .topnav .icon {
   margin: 50px;
   flex: 0 0 auto;
   position: relative;
+  overflow: hidden;
 }
 #samarbejdspartnereafsnit .samarbejdspartnerkasser .samarbejdsbilleder {
   transition: transform 0.3s ease;
   display: block;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 #samarbejdspartnereafsnit .samarbejdspartnerkasser .samarbejdsoverlay {
   position: absolute;
@@ -740,7 +738,7 @@ nav .topnav .icon {
   width: 100%;
   opacity: 0;
   transition: transform 0.3s ease;
-  background-color: rgba(53, 78, 195, 0.5);
+  background-color: rgba(253, 140, 74, 0.8);
 }
 #samarbejdspartnereafsnit .samarbejdspartnerkasser:hover .samarbejdsbilleder {
   transform: scale(1.1);
