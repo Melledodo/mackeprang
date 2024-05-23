@@ -38,6 +38,9 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
 </script>
 
 <template>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <header>
       <a href="/">

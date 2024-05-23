@@ -51,6 +51,9 @@ getKontakt();
 </script>
 
 <template>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <header>
       <a href="/">
@@ -84,20 +87,6 @@ getKontakt();
     <button id="indsend" type="submit">Send</button>
     <div v-if="showMessage">Besked modtaget! Tak for din henvendelse.</div>
     </form>
-</div>
-<div class="admin">
-    <div class="mailboks">
-        <ul class="kontaktliste">
-            <li v-for="(kontakt, index) in kontakter" :key="index">
-            <div class="kontakt">
-            <p>Navn: {{ kontakt.navn }}</p>
-            <p>Telefonnummer: {{ kontakt.telefonnummer }}</p>
-            <p>Email: {{ kontakt.email }}</p>
-            <p>Besked: {{ kontakt.besked }}</p>
-            </div>
-            </li>
-        </ul>
-    </div>
 </div>
 
 <footer>
