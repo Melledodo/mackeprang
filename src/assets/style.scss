@@ -364,7 +364,7 @@ $background-color: #FDF6EF;
     }
 }
 #anbefalingerafsnit{
-    height: 600px;
+    height: auto;
     width: 100%;
     background-color: $background-color;
     justify-content: center;
@@ -375,12 +375,14 @@ $background-color: #FDF6EF;
     #anbefalingeroverskrift{
     color: $secondary-color;
     font-size: 40px;
+    margin-top: 20px;
     }
 
     #anbefalingerkasser{
     height: 500px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
