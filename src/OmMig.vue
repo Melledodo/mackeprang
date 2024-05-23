@@ -20,10 +20,10 @@ function hamburgerFunktion() {
       </a>
       <nav>
         <div class="topnav" :class="{ 'responsive': isResponsive }" id="myTopnav">
-          <a href="/personligshopper">Personlig Shopper</a>
-          <a href='/tirsdagsklumme'>Tirsdagsklumme</a>
-          <a href='/ommig'>Om mig</a>
-          <a id="bookmenuknap" href='/bookher'>Book her</a>
+          <a href="/personligshopper"><b>Personlig Shopper</b></a>
+          <a href='/tirsdagsklumme'><b>Tirsdagsklumme</b></a>
+          <a href='/ommig'><b>Om mig</b></a>
+          <a id="bookmenuknap" href='/bookher'><b>Book her</b></a>
           <a href="javascript:void(0);" class="icon" @click="hamburgerFunktion">
             <i class="fa fa-bars"></i>
           </a>
