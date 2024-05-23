@@ -133,10 +133,12 @@ $background-color: #FDF6EF;
         margin-top: 200px;
         font-size: 65px;
         color: $secondary-color;
+        margin-left: 40px;
     }
     #bannerbilledeundertekst{
         font-size: 25px;
         color: $secondary-color;
+        margin-left: 45px;
     }
 }
 #contentkonsulentafsnit{
@@ -291,7 +293,7 @@ $background-color: #FDF6EF;
             width: 100%;
             opacity: 0;
             transition: transform 0.3s ease;
-            background-color: rgba($primary-color, 0.5);
+            background-color: rgba($secondary-color, 0.8);
         }
 
         &:hover .samarbejdsbilleder {
