@@ -100,7 +100,7 @@ body {
 .sktekst p, .pstekst p, .garderobetekst p, .gntekst p {
   text-align: left;
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 18px;
   list-style-type: circle;
 }
 .sktekst .pris, .pstekst .pris, .garderobetekst .pris, .gntekst .pris {
