@@ -70,6 +70,7 @@ $background-color: #FDF6EF;
         background-color: $primary-color;
         flex-direction: column;
         align-items: flex-end;
+
       }
   
       .topnav a {
@@ -127,7 +128,7 @@ $background-color: #FDF6EF;
     background-image: url('https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/forsidebannerbillede.webp?alt=media&token=34adcbb8-c58b-4439-b269-26ae4515b360');
     background-size: cover;
     background-position: center;
-    position: relative;
+
 
     #bannerbilledeoverskrift{
         margin-top: 200px;
@@ -140,6 +141,12 @@ $background-color: #FDF6EF;
         color: $secondary-color;
         margin-left: 45px;
     }
+}
+@media screen and (max-width: 800px) {
+    #bannerbilledeoverskrift{
+margin-top: 50px;
+    }
+    
 }
 #contentkonsulentafsnit{
     height: auto;
