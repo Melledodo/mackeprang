@@ -144,7 +144,7 @@ $background-color: #FDF6EF;
 }
 @media screen and (max-width: 800px) {
     #bannerbilledeoverskrift{
-margin-top: 50px;
+    margin-top: 50px;
     }
     
 }
@@ -444,6 +444,12 @@ margin-top: 50px;
     font-size: 15px;
     margin: 25px;
     }
+}
+@media screen and (max-width: 600px){
+    #forsidevideooverskrift{
+    font-size: 20px;
+    }
+    
 }
 #anbefalingerafsnit{
     height: auto;
