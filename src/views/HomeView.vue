@@ -168,26 +168,33 @@ const closeModal = () => {
   <h1 id="anbefalingeroverskrift">Anbefalinger</h1>
   <div id="anbefalingerkasser">
   <div class="anbefalingerboks">
-    <p class="anbefalingnavn">Hanne</p>
+    <p class="anbefalingnavn">Trine Egsgård Køhn</p>
     <div class="anbefalinglinje"></div>
-    <p class="anbefalingtekst">Det var en fornøjelse at arbejde med Cecilie, 
-      da hun gør tingene på sin egen måde og er nem at snakke med.</p>
+    <p class="anbefalingtekst">Jeg havde nogle fantastiske timer sammen med Cecilie, 
+      hvor vi fandt ud af, at jeg havde virkelig meget tøj i mit klædeskab, 
+      som jeg aldrig brugte, men sammen med Cecilie fik vi lavet nogle fede styles 
+      og sammensætninger som jeg aldrig havde drømt om.</p>
     <p class="anbefalingtype">2 timers garderobetjek</p>
     <div class="anbefalinglinje"></div>
   </div>
   <div class="anbefalingerboks">
-    <p class="anbefalingnavn">Hanne</p>
+    <p class="anbefalingnavn">Ole Mathorne</p>
     <div class="anbefalinglinje"></div>
-    <p class="anbefalingtekst">Det var en fornøjelse at arbejde med Cecilie, 
-      da hun gør tingene på sin egen måde og er nem at snakke med.</p>
-    <p class="anbefalingtype">2 timers garderobetjek</p>
+    <p class="anbefalingtekst">Jeg skal love for, at jeg fik inspiration. Cecilie formåede
+       med sin direkte og åbne tilgang at åbne for et langt større udvalg og muligheder. 
+       Jeg fik hjælp til at få afklaret min tøjstil i langt højere grad. Det har ført til 
+       langt færre fejlkøb og at jeg idag grundlæggende køber mindre, men bedre tøj, 
+       der passer med det eksisterende. Jeg kan kun give Cecilie mine varmeste anbefalinger.</p>
+    <p class="anbefalingtype">2 timers personlig shopping</p>
     <div class="anbefalinglinje"></div>
   </div>
   <div class="anbefalingerboks">
-    <p class="anbefalingnavn">Hanne</p>
+    <p class="anbefalingnavn">Mie Kristin Pedersen </p>
     <div class="anbefalinglinje"></div>
-    <p class="anbefalingtekst">Det var en fornøjelse at arbejde med Cecilie, 
-      da hun gør tingene på sin egen måde og er nem at snakke med.</p>
+    <p class="anbefalingtekst">Cecilies måde at være på, er fantastisk! Som med-kvinde der ser 
+      en anden kvinde og hendes potentiale. 2 timer er lige tilpas. Der er meget at lære og tage ind, 
+      så det er bare godt, at hun flere gange huskede mig på, at det også ville komme på skrift efter 
+      garderobetjekket, så jeg kunne slappe af og nyde oplevelsen.</p>
     <p class="anbefalingtype">2 timers garderobetjek</p>
     <div class="anbefalinglinje"></div>
   </div>
