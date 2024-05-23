@@ -47,13 +47,12 @@ function hamburgerFunktion() {
     <div class="sktekst">
       <h2 class="sth2">Styling konsultation</h2>
       <h3><b>1 times konsultation hjemme hos dig</b></h3>
-      <p>
-        Få en omfattende kropsanalyse og evaluering af din personlige stil og garderobe.
-        <br>Modtag personlig rådgivning om, hvilke snit, former og farver der klæder dig bedst.
-        <br>Lær at sammensætte dit tøj med gode råd og tips.
-        <br>Efter vores session vil du modtage omfattende materiale med billeder, kropsanalyse og anbefalinger til former, farver og snit, der passer perfekt til dig.
+      <p><br> Få en omfattende kropsanalyse og evaluering af din personlige stil og garderobe.
+      <br><br> Modtag personlig rådgivning om, hvilke snit, former og farver der klæder dig bedst.
+      <br><br>Lær at sammensætte dit tøj med gode råd og tips.
+        <br><br>Efter vores session vil du modtage omfattende materiale med billeder, kropsanalyse og anbefalinger til former, farver og snit, der passer perfekt til dig.
       </p>
-      <div class="pris">900,-</div>
+      <div class="pris"><b>900,-</b></div>
       <a href="/bookher">
       <button class="bookknapps">BOOK HER</button>
       </a>
@@ -67,12 +66,12 @@ function hamburgerFunktion() {
       <h3><b>2 timers personlig shopping i byen</b></h3>
       <p>
         Jeg har nøje udvalgt butikker og tøj baseret på dine ønsker og indkøbsliste.
-        <br>Vi ordner alle dine indkøb på én gang for maksimal bekvemmelighed.
-        <br>Vi udvider din garderobe, så den fungerer på tværs af sæsonerne.
-        <br>Bliv inspireret med nye farver, styles og tøjsammensætninger.
-        <br>God stil behøver ikke være dyrt! Når vi shopper sammen, tager vi udgangspunkt i dit budget.
+        <br><br> Vi ordner alle dine indkøb på én gang for maksimal bekvemmelighed.
+        <br><br> Vi udvider din garderobe, så den fungerer på tværs af sæsonerne.
+        <br><br> Bliv inspireret med nye farver, styles og tøjsammensætninger.
+        <br><br> God stil behøver ikke være dyrt! Når vi shopper sammen, tager vi udgangspunkt i dit budget.
       </p>
-      <div class="pris">1600,-</div>
+      <div class="pris"><b>1600,-</b></div>
       <a href="/bookher">
       <button class="bookknapps">BOOK HER</button>
       </a>
@@ -92,11 +91,11 @@ function hamburgerFunktion() {
       <h3><b>3 timers garderobetjek hjemme hos dig</b></h3>
       <p>
         Sammen skaber vi helt nye outfits ved at shoppe i din egen garderobe.
-        <br>Vi skaber orden i kaos og forvandler din garderobe.
-        <br>Jeg guider dig til de perfekte styles og snit, der passer til din personlige stil og figur.
-        <br>Efter vores session modtager du outfitbilleder og indkøbsliste til at guide dig fremover i dit tøjvalg.
+        <br><br> Vi skaber orden i kaos og forvandler din garderobe.
+        <br><br> Jeg guider dig til de perfekte styles og snit, der passer til din personlige stil og figur.
+        <br><br>Efter vores session modtager du outfitbilleder og indkøbsliste til at guide dig fremover i dit tøjvalg.
       </p>
-      <div class="pris">1900,-</div>
+      <div class="pris"><b>1900,-</b></div>
       <a href="/bookher">
       <button class="bookknapps">BOOK HER</button>
       </a>
@@ -110,11 +109,12 @@ function hamburgerFunktion() {
       <h2 class="gnh2">Girls night in</h2>
       <h3><b>1-2 timers styling</b></h3>
       <p>
-        Drømmer du om en stilfuld aften eller dag? Lad mig komme til dig og forvandle din garderobe med skønne snit, farver og geniale stylingtips! 
-        <br>I kan være 6-8 personer. Jeg er forberedt inde på jeres kropstyper og alder! 
-        <br>Det handler om at genopdage din stil på en spændende måde! 
+        <br>Drømmer du om en stilfuld aften eller dag? Lad mig komme til dig og forvandle din garderobe med skønne snit, farver og geniale stylingtips! 
+        <br><br> I kan være 6-8 personer. 
+        <br><br> Jeg er forberedt inde på jeres kropstyper og alder! 
+        <br><br>Det handler om at genopdage din stil på en spændende måde! 
       </p>
-      <div class="pris">300,- pr. person</div>
+      <div class="pris"><b>300,- pr. person</b></div>
       <a href="/bookher">
       <button class="bookknapps">BOOK HER</button>
       </a>
