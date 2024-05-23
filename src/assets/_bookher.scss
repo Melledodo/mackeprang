@@ -72,19 +72,3 @@ p{
         color:$primary-color; 
       }
 }
-
-
-.kontaktliste {
-    list-style-type: none; 
-    padding: 0; 
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 20px; 
-  }
-
-  .kontakt {
-    width: 650px;
-    border: 1px solid #ccc; 
-    padding: 10px; 
-    flex: 1 0 calc(50% - 20px); 
-  }
