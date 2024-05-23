@@ -92,61 +92,61 @@ const closeModal = () => {
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde1.JPG?alt=media&token=8d3f2002-0d2d-4737-aaf6-3bc4fbf72454" alt="">
     <div class="samarbejdsoverlay">
-    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    <div class="samarbejdstekst">Cecilie Mackeprang <br>X<br>Moodswing</div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde10.JPG?alt=media&token=10ab8972-6994-497c-aa51-3a8a37ca8645" alt="">
     <div class="samarbejdsoverlay">
-    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    <div class="samarbejdstekst">Cecilie Mackeprang <br>X<br>Connect Cowork</div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde3.JPG?alt=media&token=e5c67473-199d-4cc3-8206-3452c0fca975" alt="">
     <div class="samarbejdsoverlay">
-    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    <div class="samarbejdstekst">Cecilie Mackeprang <br>X<br>Second love</div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde4.JPG?alt=media&token=69842c55-61df-492f-ba03-a4a310af1f29" alt="">
     <div class="samarbejdsoverlay">
-    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    <div class="samarbejdstekst">Cecilie Mackeprang <br>X<br>Simone Lindharth</div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde5.JPG?alt=media&token=89e0f0b7-821a-4a61-8d55-ade2ff4d2ebe" alt="">
     <div class="samarbejdsoverlay">
-    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    <div class="samarbejdstekst">Cecilie Mackeprang <br>X<br>Line Bjørn</div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde6.JPG?alt=media&token=cbc013f8-f81a-4d4f-977c-62e90f9c2450" alt="">
     <div class="samarbejdsoverlay">
-    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    <div class="samarbejdstekst">Cecilie Mackeprang <br>X<br>DANOIS</div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde7.JPG?alt=media&token=e749f507-2646-4649-8fb9-3b9d2944e88d" alt="">
     <div class="samarbejdsoverlay">
-    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    <div class="samarbejdstekst">Cecilie Mackeprang <br>X<br>Clinique Cisto</div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde8.jpg?alt=media&token=3a534eac-ba6a-4dac-9124-e78ac38f5aaa" alt="">
     <div class="samarbejdsoverlay">
-    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    <div class="samarbejdstekst">Cecilie Mackeprang <br>X<br>IMERCO</div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde9.JPG?alt=media&token=d6ace01a-1d25-4b68-a72d-f0525382cb7c" alt="">
     <div class="samarbejdsoverlay">
-    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    <div class="samarbejdstekst">Cecilie Mackeprang <br>X<br>Karma</div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
     <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde2.JPG?alt=media&token=2fca075f-5fb7-4a87-a645-fc23b397f653" alt="">
     <div class="samarbejdsoverlay">
-    <div class="samarbejdstekst">Jeg samarbejder med mennesker</div>
+    <div class="samarbejdstekst">Cecilie Mackeprang <br>X<br>Kim Lindharth</div>
     </div>
   </div>
 
