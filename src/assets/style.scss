@@ -273,12 +273,13 @@ $background-color: #FDF6EF;
     margin: 50px;
     flex: 0 0 auto;
     position: relative;
+    overflow: hidden;
 
         .samarbejdsbilleder {
             transition: transform 0.3s ease;
             display: block;
-            width: 100%;
-            height: auto;
+            width: auto;
+            height: 100%;
         }
         .samarbejdsoverlay{
             position: absolute;
