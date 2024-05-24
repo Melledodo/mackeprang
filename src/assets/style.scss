@@ -133,12 +133,12 @@ $background-color: #FDF6EF;
     #bannerbilledeoverskrift{
         margin-top: 200px;
         font-size: 65px;
-        color: $secondary-color;
+        color: $background-color;
         margin-left: 40px;
     }
     #bannerbilledeundertekst{
         font-size: 25px;
-        color: $secondary-color;
+        color: $background-color;
         margin-left: 45px;
     }
 }
