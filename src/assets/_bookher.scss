@@ -75,3 +75,9 @@ p{
         color:$primary-color; 
       }
 }
+
+@media screen and (max-width: 700px){
+    .siden{
+    flex-wrap: wrap;
+    }
+}
