@@ -84,6 +84,9 @@ getKontakt();
     <input id="email" type="email" v-model="email" placeholder="Email">
     <p>Besked</p>
     <input id="besked" type="text" v-model="besked" placeholder="meddelelse">
+    <label>
+    <input class="huskmig" type="checkbox" checked="checked" name="husk">Husk mig
+    </label>
     <button id="indsend" type="submit">Send</button>
     <div v-if="showMessage">Besked modtaget! Tak for din henvendelse.</div>
     </form>

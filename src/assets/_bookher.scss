@@ -56,6 +56,10 @@ p{
     height: 200px;
     margin: 10px;
 }
+.huskmig{
+    margin: 10px;
+    font-size: 20px;
+}
 
 #indsend{
     height: 50px;
@@ -65,7 +69,7 @@ p{
     color: $secondary-color;
     background-color: transparent;
     font-size: 15px;
-    margin: 25px;
+    margin: 10px;
     cursor: pointer;
 
     &:hover {
