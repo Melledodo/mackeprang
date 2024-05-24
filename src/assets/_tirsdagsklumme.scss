@@ -14,8 +14,6 @@ body {
     align-items: flex-start;
   }
   
-  
-  
 .billede-api{
     width: 100%;
     height: auto;
@@ -44,7 +42,12 @@ body {
       margin: 80px;
     }
 }
+@media screen and (max-width: 800px) {
+  .billede-api {
+    flex-wrap: wrap;
+  }
   
+}
 
 
   .tkbilleder img {

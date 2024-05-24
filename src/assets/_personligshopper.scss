@@ -10,7 +10,7 @@ body {
 
 
 .psvideo-container {
-  height: 80vh; 
+  height: auto; 
   width: 100%; 
   background-position: center;
   position: relative;
@@ -46,6 +46,21 @@ body {
   .psunderskrift{
     font-size: 24px;
   }
+}
+@media screen and (max-width: 700px){
+  .psvideo-container{
+
+      .psvideo-tekst{
+      top: 20%;
+      }
+      .psoverskriftvideo{
+      font-size: 20px;
+      }
+      .psunderskrift{
+      font-size: 15px;
+      }
+  }
+  
 }
 
 .sth2, .psh2, .gh2, .gnh2{
