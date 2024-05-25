@@ -71,7 +71,10 @@ const closeModal = () => {
     <div v-if="modalType === 'contentCreater' && isModalOpen" class="modal">
       <div class="modal-content">
         <span class="close" @click="closeModal">&times;</span>
-        <p>Content Creater Modal Content</p>
+        <p>Her laver jeg faste aftaler med virksomheder, der ønsker et mere personligt og 
+          nærværende udtryk i deres content på deres sociale medier.
+          Jeg laver både film og billeder af produkter, men også af personer, 
+          der er lige i det, de elsker. Deres egen virksomhed eller med deres produkt.</p>
       </div>
     </div>
     
