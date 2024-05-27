@@ -45,6 +45,14 @@ body {
 @media screen and (max-width: 800px) {
   .billede-api {
     flex-wrap: wrap;
+
+    .api-tekst{
+      margin: 10px;
+    }
+
+    img{
+      height: 400px;
+    }
   }
   
 }
