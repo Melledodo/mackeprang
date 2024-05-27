@@ -120,8 +120,10 @@ Jeg har matchet jakken med sneakers og mine absolut yndlings nylonstrømper fra 
       <div class="modal-indhold">
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">
-        <h2>Tirsdags klumme tekst</h2>
-        <p>Styling tips uge 30</p>
+        <h2>Kan en halskæde trylle?</h2>
+        <p>Er du mest til at gå i bluser med rundhals? Så bryd med en kæde, som skaber en “v-udskæring” på din overdel og gør din overkrop mere harmonisk.
+          <br>Dette er rigtig flot, hvis du har en fyldig barm 😍
+          <br>Hvorfor? Fordi en rundhalset bluse kan gøre barmen “lang”, og overkroppen størrer - kæden gør overkroppen bliver sammenhængende, ved flere linjler.</p>
         </div>
       </div>
       </div>
