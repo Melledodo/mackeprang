@@ -34,9 +34,14 @@ function hamburgerFunktion() {
   <img id="ommigbillede" src="@/assets/mackeprang1.png" alt="mackeprang1">
   <div class="ommig-tekst">
     <h2>Cecilie Mackeprang</h2>
-    <p>Med over 15 års erfaring i modebranchen og baggrund som tekstil- og<br> beklædningshåndværker med speciale i design, har jeg arbejdet som Visuel Merchandiser hos Bestseller, Envii og Samsøe Samsøe.
-    Med over 15 års erfaring i modebranchen og baggrund som tekstil- og<br> beklædningshåndværker med speciale i design, har jeg arbejdet som Visuel Merchandiser hos Bestseller, Envii og Samsøe Samsøe.
-    <br>Glæd dig til at få masser af modeinspiration og personlige tips fra mig!</p>
+    <p>Hej allesammen! 👋🏻 Jeg er Cecilie, og jeg nærmer mig hastigt de 38 år - lidt for hurtigt efter min smag! 😮‍💨😮‍💨<br>
+    Sammen med mine to vidunderlige børn og min søde mand, bor vi “ude” i Marslev på Fyn.
+    <br>Som uddannet designer har jeg arbejdet med visuel merchandising, indkøb, sælger og endda personlig shopper i Magasin og nu som selvstændig @ps.cecilie . 
+    <br>Mit hår skifter farve oftere end vejret i Danmark, og min garderobe er en levende oase af tøj og mode - jeg elsker at mikse og matche, være farverig den ene dag, sort den næste og dagen efter i det klassiske look. 
+    <br>Usikkerheden kan snige sig ind på mig, og fylder mere end man tror - en tro på om jeg er dygtig, god nok og lære af mine fejl, end slå mig selv ned.
+    <br>Ha! Min stemme? Den kan man genkende på 1000 kilometers afstand! Jeg har erfaret jeg ikke behøver sige mit navn i telefonen 😅😅
+        En skjult talent, hvis jeg selv skal sige det. En ting, jeg ikke er i tvivl om, er min kærlighed til kinderchokolade - så rammer du plet, hvis du kommer med det til kaffen 🤣
+    <br>Og ja, jeg er også selvstændig, elsker at netværke og er ret god til at snakke - især hvis der er kaffe involveret! ☕❤️</p>
   </div>
 </div>
 

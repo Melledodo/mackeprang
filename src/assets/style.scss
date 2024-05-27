@@ -282,11 +282,12 @@ $background-color: #FDF6EF;
         }
     #forsidekonsulenttekstboks{
         height: 350px;
-        width: 500px;
+        width: 450px;
+        margin: 0px;
     
         #konsulentoverskrift{
-        font-size: 40px;
-        margin: 30px;
+        font-size: 30px;
+        margin: 20px;
         }
         .modalknapperkonsulent{
         width: 400px;
@@ -295,7 +296,7 @@ $background-color: #FDF6EF;
         font-size: 20px;
         }}
         #konsulentlinje{
-        width: 400px;
+        width: 350px;
         }
         }}
     
@@ -357,6 +358,17 @@ $background-color: #FDF6EF;
         }
     }
 }
+
+@media screen and (max-width: 800px) {
+    #samarbejdspartnereafsnit{
+        height: 600px;
+    .samarbejdspartnerkasser{
+        height: 450px;
+        width: 300px;
+    }
+}
+    
+}
 #personligshopperafsnit{
     height: auto;
     width: 100%;
@@ -412,9 +424,11 @@ $background-color: #FDF6EF;
         }
         #forsidevideooverskrift{
         font-size: 20px;
+        margin: 5px;
         }
         #forsidevideotekst{
         font-size: 15px;
+        margin: 10px;
         }
         #bookherknap{
         height: 30px;
