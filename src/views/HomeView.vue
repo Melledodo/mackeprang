@@ -155,7 +155,7 @@ const closeModal = () => {
 
 </section>
 <section id="personligshopperafsnit">
-  <video id="forsidevideo" controls poster="/images/w3html5.gif" loop muted>
+  <video id="forsidevideo" autoplay loop muted>
     <source src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/C0098.mp4?alt=media&token=09c3b56e-991a-41aa-aab3-033fd864602a" type="video/mp4">
   </video>
   <div class="forsidevideotekstboks">
