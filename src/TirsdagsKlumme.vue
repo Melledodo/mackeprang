@@ -85,23 +85,7 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
           <div class="modalknaptk" @click="openModalTk('tirsdagKlumme1')">
             <p class="tkknap-tekst">Læs mere</p>
           </div>
-      </div>
-
-      <div class="tkbilleder">
-        <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/tirsdagklum2.webp?alt=media&token=b0620496-3bdc-4d6d-b1d3-3b93ac0a0625" alt="portræt billede">
-          <div class="modalknaptk" @click="openModalTk('tirsdagKlumme2')">
-            <p class="tkknap-tekst">Læs mere</p>
-        </div>
-      </div>
-        
-      <div class="tkbilleder">
-        <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/tirsdagklum3.webp?alt=media&token=6938fb56-5877-43cc-943f-ddd5d695a2e9" alt="portræt billede">
-          <div class="modalknaptk" @click="openModalTk('tirsdagKlumme3')">
-            <p class="tkknap-tekst">Læs mere</p>
-        </div>
-      </div>
-
-        <div v-if="modalType === 'tirsdagKlumme1' && isModalOpen" class="modaltk tirsdagKlumme1-modal">
+          <div v-if="modalType === 'tirsdagKlumme1' && isModalOpen" class="modaltk tirsdagKlumme1-modal">
       <div class="modal-indhold">
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">
@@ -116,7 +100,14 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
         </div>
       </div>
       </div>
-      <div v-if="modalType === 'tirsdagKlumme2' && isModalOpen" class="modaltk tirsdagKlumme2-modal">
+      </div>
+
+      <div class="tkbilleder">
+        <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/tirsdagklum2.webp?alt=media&token=b0620496-3bdc-4d6d-b1d3-3b93ac0a0625" alt="portræt billede">
+          <div class="modalknaptk" @click="openModalTk('tirsdagKlumme2')">
+            <p class="tkknap-tekst">Læs mere</p>
+        </div>
+        <div v-if="modalType === 'tirsdagKlumme2' && isModalOpen" class="modaltk tirsdagKlumme2-modal">
       <div class="modal-indhold">
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">
@@ -127,7 +118,14 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
         </div>
       </div>
       </div>
-      <div v-if="modalType === 'tirsdagKlumme3' && isModalOpen" class="modaltk tirsdagKlumme3-modal">
+      </div>
+        
+      <div class="tkbilleder">
+        <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/tirsdagklum3.webp?alt=media&token=6938fb56-5877-43cc-943f-ddd5d695a2e9" alt="portræt billede">
+          <div class="modalknaptk" @click="openModalTk('tirsdagKlumme3')">
+            <p class="tkknap-tekst">Læs mere</p>
+        </div>
+        <div v-if="modalType === 'tirsdagKlumme3' && isModalOpen" class="modaltk tirsdagKlumme3-modal">
       <div class="modal-indhold">
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">
@@ -138,6 +136,8 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
         </div>
       </div>
       </div>
+      </div>
+
 </div>
 
 <footer>
