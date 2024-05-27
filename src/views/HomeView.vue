@@ -51,8 +51,8 @@ const closeModal = () => {
 </section>
 <section id="contentkonsulentafsnit">
   <div id="forsidekonsulentbilleder">
-    <img id="konsulentstortbillede" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/gra%CC%8Am6.webp?alt=media&token=eeb43b95-faab-4826-afbc-27064cbae029" alt="">
-    <img id="konsulentlillebillede" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/gra%CC%8Am7-kopi.webp?alt=media&token=6f8c1f89-8065-490a-a470-2f874fbf89bb" alt="">
+    <img id="konsulentstortbillede" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/gra%CC%8Am6.webp?alt=media&token=eeb43b95-faab-4826-afbc-27064cbae029" alt="Live konsulent">
+    <img id="konsulentlillebillede" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/gra%CC%8Am7-kopi.webp?alt=media&token=6f8c1f89-8065-490a-a470-2f874fbf89bb" alt="Content creator">
   </div>
   <div id="forsidekonsulenttekstboks">
     <h1 id="konsulentoverskrift">CONTENT CREATOR & <br>
@@ -93,61 +93,61 @@ const closeModal = () => {
 </section>
 <section id="samarbejdspartnereafsnit">
   <div class="samarbejdspartnerkasser">
-    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde1.JPG?alt=media&token=8d3f2002-0d2d-4737-aaf6-3bc4fbf72454" alt="">
+    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde1.JPG?alt=media&token=8d3f2002-0d2d-4737-aaf6-3bc4fbf72454" alt="Samarbejde med Moodswing">
     <div class="samarbejdsoverlay">
     <div class="samarbejdstekst"><b>Cecilie Mackeprang <br>X<br>Moodswing</b></div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
-    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde10.JPG?alt=media&token=10ab8972-6994-497c-aa51-3a8a37ca8645" alt="">
+    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde10.JPG?alt=media&token=10ab8972-6994-497c-aa51-3a8a37ca8645" alt="Samarbejde med Connect Cowork">
     <div class="samarbejdsoverlay">
     <div class="samarbejdstekst"><b>Cecilie Mackeprang <br>X<br>Connect Cowork</b></div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
-    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde3.JPG?alt=media&token=e5c67473-199d-4cc3-8206-3452c0fca975" alt="">
+    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde3.JPG?alt=media&token=e5c67473-199d-4cc3-8206-3452c0fca975" alt="Samarbejde med Second love">
     <div class="samarbejdsoverlay">
     <div class="samarbejdstekst"><b>Cecilie Mackeprang <br>X<br>Second love</b></div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
-    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde4.JPG?alt=media&token=69842c55-61df-492f-ba03-a4a310af1f29" alt="">
+    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde4.JPG?alt=media&token=69842c55-61df-492f-ba03-a4a310af1f29" alt="Samarbejde med Simone Lindharth">
     <div class="samarbejdsoverlay">
     <div class="samarbejdstekst"><b>Cecilie Mackeprang <br>X<br>Simone Lindharth</b></div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
-    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde5.JPG?alt=media&token=89e0f0b7-821a-4a61-8d55-ade2ff4d2ebe" alt="">
+    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde5.JPG?alt=media&token=89e0f0b7-821a-4a61-8d55-ade2ff4d2ebe" alt="Samarbejde med Line Bjørn">
     <div class="samarbejdsoverlay">
     <div class="samarbejdstekst"><b>Cecilie Mackeprang <br>X<br>Line Bjørn</b></div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
-    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde6.JPG?alt=media&token=cbc013f8-f81a-4d4f-977c-62e90f9c2450" alt="">
+    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde6.JPG?alt=media&token=cbc013f8-f81a-4d4f-977c-62e90f9c2450" alt="Samarbejde med DANOIS">
     <div class="samarbejdsoverlay">
     <div class="samarbejdstekst"><b>Cecilie Mackeprang <br>X<br>DANOIS</b></div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
-    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde7.JPG?alt=media&token=e749f507-2646-4649-8fb9-3b9d2944e88d" alt="">
+    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde7.JPG?alt=media&token=e749f507-2646-4649-8fb9-3b9d2944e88d" alt="Samarbejde med Clinique cisto">
     <div class="samarbejdsoverlay">
     <div class="samarbejdstekst"><b>Cecilie Mackeprang <br>X<br>Clinique Cisto</b></div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
-    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde8.jpg?alt=media&token=3a534eac-ba6a-4dac-9124-e78ac38f5aaa" alt="">
+    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde8.jpg?alt=media&token=3a534eac-ba6a-4dac-9124-e78ac38f5aaa" alt="Samarbejde med IMERCO">
     <div class="samarbejdsoverlay">
     <div class="samarbejdstekst"><b>Cecilie Mackeprang <br>X<br>IMERCO</b></div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
-    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde9.JPG?alt=media&token=d6ace01a-1d25-4b68-a72d-f0525382cb7c" alt="">
+    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde9.JPG?alt=media&token=d6ace01a-1d25-4b68-a72d-f0525382cb7c" alt="Samarbejde med Karma">
     <div class="samarbejdsoverlay">
     <div class="samarbejdstekst"><b>Cecilie Mackeprang <br>X<br>Karma</b></div>
     </div>
   </div>
   <div class="samarbejdspartnerkasser">
-    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde2.JPG?alt=media&token=2fca075f-5fb7-4a87-a645-fc23b397f653" alt="">
+    <img class="samarbejdsbilleder" src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/samarbejde2.JPG?alt=media&token=2fca075f-5fb7-4a87-a645-fc23b397f653" alt="Samarbejde med Kim Lindharth">
     <div class="samarbejdsoverlay">
     <div class="samarbejdstekst"><b>Cecilie Mackeprang <br>X<br>Kim Lindharth</b></div>
     </div>
