@@ -73,7 +73,7 @@ getKontakt();
     </header>
     <div class="siden">
 <div class="billede">
-    <img class="cecilie" src="https://firebasestorage.googleapis.com/v0/b/melledodo-3sem.appspot.com/o/cecilie-mackeprang.webp?alt=media&token=0f543f3b-4252-4083-8730-88d0bdd078d4" alt="Billede fra Instagram">
+    <img class="cecilie" src="https://firebasestorage.googleapis.com/v0/b/melledodo-3sem.appspot.com/o/cecilie-mackeprang.webp?alt=media&token=0f543f3b-4252-4083-8730-88d0bdd078d4" alt="Cecilie portræt billede">
 </div>
     <form v-on:submit.prevent="onSubmitForm">
     <p>Fulde navn</p>
