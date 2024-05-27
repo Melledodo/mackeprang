@@ -81,7 +81,7 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
   <div class="tkbilleder-container">
 
       <div class="tkbilleder">
-        <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/tirsdagklum1.webp?alt=media&token=1ca27764-a768-4fe1-90c5-92f4bc9b676b" alt="portræt billede">
+        <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/tirsdagklum1.webp?alt=media&token=1ca27764-a768-4fe1-90c5-92f4bc9b676b" alt="skjulte skatte oplæg billede">
           <div class="modalknaptk" @click="openModalTk('tirsdagKlumme1')">
             <p class="tkknap-tekst">Læs mere</p>
           </div>
@@ -103,7 +103,7 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
       </div>
 
       <div class="tkbilleder">
-        <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/tirsdagklum2.webp?alt=media&token=b0620496-3bdc-4d6d-b1d3-3b93ac0a0625" alt="portræt billede">
+        <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/tirsdagklum2.webp?alt=media&token=b0620496-3bdc-4d6d-b1d3-3b93ac0a0625" alt="Kan en halskæde trylle oplæg billede">
           <div class="modalknaptk" @click="openModalTk('tirsdagKlumme2')">
             <p class="tkknap-tekst">Læs mere</p>
         </div>
@@ -121,7 +121,7 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
       </div>
         
       <div class="tkbilleder">
-        <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/tirsdagklum3.webp?alt=media&token=6938fb56-5877-43cc-943f-ddd5d695a2e9" alt="portræt billede">
+        <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/tirsdagklum3.webp?alt=media&token=6938fb56-5877-43cc-943f-ddd5d695a2e9" alt="Hverdagslook oplæg billede">
           <div class="modalknaptk" @click="openModalTk('tirsdagKlumme3')">
             <p class="tkknap-tekst">Læs mere</p>
         </div>
