@@ -71,17 +71,28 @@ const closeModal = () => {
     <div v-if="modalType === 'contentCreater' && isModalOpen" class="modal">
       <div class="modal-content">
         <span class="close" @click="closeModal">&times;</span>
-        <p>Her laver jeg faste aftaler med virksomheder, der ønsker et mere personligt og 
-          nærværende udtryk i deres content på deres sociale medier.
-          Jeg laver både film og billeder af produkter, men også af personer, 
-          der er lige i det, de elsker. Deres egen virksomhed eller med deres produkt.</p>
+        <p>Jeg indgår faste aftaler med virksomheder, der søger at skabe et mere personligt og nærværende 
+          udtryk i deres indhold på sociale medier. Mit mål er at hjælpe disse virksomheder med at fremhæve 
+          deres identitet og skabe en stærkere forbindelse til deres kunder.
+          <br><br>Jeg producerer både film og billeder, som viser virksomhedens produkter på en måde, der fanger essensen af, 
+          hvad de tilbyder. Men mit arbejde stopper ikke der. Jeg fanger også personer i øjeblikke, hvor de udstråler 
+          passion og engagement, hvad enten det er inden for deres egen virksomhed eller i forbindelse med deres produkter.
+          <br><br>Ved at fokusere på autentiske og meningsfulde øjeblikke skaber jeg indhold, der resonerer med kunderne og 
+          giver en dybere indsigt i virksomhedens værdier og menneskerne bag. </p>
       </div>
     </div>
     
     <div v-if="modalType === 'liveKonsulent' && isModalOpen" class="modal">
       <div class="modal-content">
         <span class="close" @click="closeModal">&times;</span>
-        <p>Live Konsulent Modal Content</p>
+        <p>Jeg tilbyder hjælp med opsætningen og gennemførelsen af de første live. Min hjælp omfatter ikke blot den 
+          tekniske opsætning, men også vejledning i, hvordan man effektivt kan interagere med kunderne. Jeg hjælper 
+          med at demonstrerer de forskellige varer på en engagerende måde, der både kan være informativ og underholdende.
+          <br><br>Desuden kan jeg medvirke på flere måder under selve liven. Jeg kan være en synlig del af skærmbilledet, hvor 
+          jeg aktivt præsenterer produkterne. Alternativt kan jeg arbejde bag kulisserne for at sikre, at alt forløber glat, 
+          eller jeg kan fungere som moderator.
+          <br><br>Med min alsidighed og erfaring sikrer jeg, at hver liveudsendelse bliver en succes, som både engagerer 
+          kunderne og fremmer salget.</p>
       </div>
     </div>
   </div>
