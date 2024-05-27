@@ -105,7 +105,7 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
       <div class="modal-indhold">
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">
-        <h2>Tirsdags klumme tekst</h2>
+        <h2>Skjulte skatte?</h2>
         <p>Har du nogensinde stået foran dit klædeskab og tænkt på, hvor mange skjulte skatte der gemmer sig derinde? 🧥😂
         Jeg har fundet denne fantastiske plastiko jakke, og jeg er helt vild med den! 😍 Men jeg ved, at nogle af jer måske 
         har en jakke liggende derhjemme, som I sjældent bruger. - Er det fordi størrelsen ikke er helt rigtig? eller farven 
