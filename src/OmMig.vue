@@ -31,7 +31,7 @@ function hamburgerFunktion() {
       </nav>
     </header>
     <div class="ommig-indhold">
-  <img id="ommigbillede" src="@/assets/mackeprang1.png" alt="mackeprang1">
+  <img id="ommigbillede" src="@/assets/mackeprang1.png" alt="cecilie med armene i bevægelse og smiler">
   <div class="ommig-tekst">
     <h2>Cecilie Mackeprang</h2>
     <p>Hej allesammen! 👋🏻 Jeg er Cecilie, og jeg nærmer mig hastigt de 38 år - lidt for hurtigt efter min smag! 😮‍💨😮‍💨<br>
@@ -59,32 +59,32 @@ function hamburgerFunktion() {
                     <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke0.webp?alt=media&token=f298d60f-6efa-43d4-a388-9d3ccbdc9b2c&fbclid=IwZXh0bgNhZW0CMTAAAR2SCB5lJzyxiWA7wnyMjUjsJ5l_ICiQnM6ovXGBKJrQhNQqyVPQ-_KxFGU_aem_ASFZVDfMV1vW_PLM5zz5ynXh4g-x30jvkTE81OeDnSykeA6oaIdf7fQlIuIRJ-RwmGr6tXI-7V2pd2-I1M87Zi5W" alt="ceciliemedkaf">
                 </div>
                         <div class="ommig-fotogalleri">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke1.webp?alt=media&token=105fea89-e484-41a7-867b-34d025344d4b" alt="">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke1.webp?alt=media&token=105fea89-e484-41a7-867b-34d025344d4b" alt="Cecilie med kasket i en stol">
                             </div>    
                         <div class="ommig-fotogalleri">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke2.webp?alt=media&token=7ed63c4d-c4fc-472c-a9b7-56893fccbde3" alt="">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke2.webp?alt=media&token=7ed63c4d-c4fc-472c-a9b7-56893fccbde3" alt="cecilie foran en grøn dør">
                 </div>    
             </div>
             <div class="kolonne">
                 <div class="ommig-fotogalleri">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke4.webp?alt=media&token=bc736853-87c8-451e-8329-9e4d3f1f8253" alt="">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke4.webp?alt=media&token=bc736853-87c8-451e-8329-9e4d3f1f8253" alt="close up billede af cecilies ansigt">
                 </div>
                         <div class="ommig-fotogalleri">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke7.webp?alt=media&token=1e8f901b-f0ff-4652-83fa-518d3438d1d0" alt="">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke7.webp?alt=media&token=1e8f901b-f0ff-4652-83fa-518d3438d1d0" alt="cecilie med hue siddende på en trappe">
                             </div>    
                         <div class="ommig-fotogalleri">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke5.webp?alt=media&token=9bec95ff-8d01-4d67-8bcb-9568eb60e5c8" alt="">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke5.webp?alt=media&token=9bec95ff-8d01-4d67-8bcb-9568eb60e5c8" alt="cecilie sort hvid med kasket og læderjakke">
                             </div>    
                     </div>
                 <div class="kolonne">
             <div class="ommig-fotogalleri">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke6.webp?alt=media&token=f9bfe89c-a5f6-454a-b454-9ef00ceb6f96" alt="">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke6.webp?alt=media&token=f9bfe89c-a5f6-454a-b454-9ef00ceb6f96" alt="cecilie i sort skjorte siddende">
                     </div>
                         <div class="ommig-fotogalleri">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke3.webp?alt=media&token=789b859d-2f63-457e-ac77-b22aea8e8529" alt="">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke3.webp?alt=media&token=789b859d-2f63-457e-ac77-b22aea8e8529" alt="cecilie i dyne siddende">
                             </div>    
                         <div class="ommig-fotogalleri">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke8.webp?alt=media&token=4191fcdb-a607-4c87-887a-90e0cd12caa4" alt="">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/mackeprang-b5f6e.appspot.com/o/macke8.webp?alt=media&token=4191fcdb-a607-4c87-887a-90e0cd12caa4" alt="cecilie med plakater">
                 </div>    
             </div>
         </div>
