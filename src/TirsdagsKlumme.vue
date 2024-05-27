@@ -123,8 +123,10 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
       <div class="modal-indhold">
         <span class="closetk" @click="closeModalTk">&times;</span>
         <div class="modalbillede-container">
-        <h2>Tirsdags klumme tekst</h2>
-        <p>Styling tip uge 12</p>
+        <h2>Style et simpelt hverdagslook</h2>
+        <p>Åh, jeg elsker at vælge dagens outfit, ikke sandt? 👗
+        <br>I dag har jeg kastet mig over et lidt anderledes look med brede bukser og en simpel t-shirt. Men for at tilføre en feminin touch og undgå at drukne i det voluminøse, har jeg stylet en oversize kjole, som har en V-udskæring. Det giver lige det rette strejf af feminint uden at miste det oversize look. Og ja, det er virkelig vigtigt at finde den rette balance, så vi ikke forsvinder i stoffet! 😄
+        <br>Jeg valgte de brede bukser, fordi de forlænger silhuetten og skaber en fin sammenhæng med kjolen, i stedet for at lave flere skæringer, som med par stramme jeans. Og selvfølgelig kan jeg ikke undvære lidt fokus i taljen, så en kort jakke er den perfekte finish for at give mig den ønskede silhuet.</p>
         </div>
       </div>
       </div>
