@@ -107,12 +107,12 @@ fetch('https://mackeprang-b5f6e-default-rtdb.europe-west1.firebasedatabase.app/i
         <div class="modalbillede-container">
         <h2>Tirsdags klumme tekst</h2>
         <p>Har du nogensinde stået foran dit klædeskab og tænkt på, hvor mange skjulte skatte der gemmer sig derinde? 🧥😂
-
-Jeg har fundet denne fantastiske plastiko jakke, og jeg er helt vild med den! 😍 Men jeg ved, at nogle af jer måske har en jakke liggende derhjemme, som I sjældent bruger. - Er det fordi størrelsen ikke er helt rigtig? eller farven ikke passer til jeres stil? Eller hvad der skal sættes til den 💁🏻‍♀️💁🏻‍♀️
-
-Jeg har valgt at tone min jakke ned med sort tøj under, så bliver den lidt nemmere at style. Hvad tænker I?
-
-Jeg har matchet jakken med sneakers og mine absolut yndlings nylonstrømper fra @mollyogmy.dk - de får jo mine ben til at se naturligt brune ud! ✨😍</p>
+        Jeg har fundet denne fantastiske plastiko jakke, og jeg er helt vild med den! 😍 Men jeg ved, at nogle af jer måske 
+        har en jakke liggende derhjemme, som I sjældent bruger. - Er det fordi størrelsen ikke er helt rigtig? eller farven 
+        ikke passer til jeres stil? Eller hvad der skal sættes til den 💁🏻‍♀️💁🏻‍♀️
+        Jeg har valgt at tone min jakke ned med sort tøj under, så bliver den lidt nemmere at style. Hvad tænker I?
+        Jeg har matchet jakken med sneakers og mine absolut yndlings nylonstrømper fra @mollyogmy.dk 
+        - de får jo mine ben til at se naturligt brune ud! ✨😍</p>
         </div>
       </div>
       </div>
