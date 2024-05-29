@@ -198,7 +198,7 @@ const closeModal = () => {
        med sin direkte og åbne tilgang at åbne for et langt større udvalg og muligheder. 
        Jeg fik hjælp til at få afklaret min tøjstil i langt højere grad. Det har ført til 
        langt færre fejlkøb og at jeg idag grundlæggende køber mindre, men bedre tøj, 
-       der passer med det eksisterende. Jeg kan kun give Cecilie mine varmeste anbefalinger.</p>
+       der passer med det eksisterende.</p>
     <p class="anbefalingtype">2 timers personlig shopping</p>
     <div class="anbefalinglinje"></div>
   </div>
