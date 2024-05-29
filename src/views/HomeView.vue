@@ -171,7 +171,7 @@ const closeModal = () => {
   </video>
   <div class="forsidevideotekstboks">
   <h1 id="forsidevideooverskrift">PERSONLIG SHOPPER</h1>
-  <p id="forsidevideotekst">Jeg arbejder også som personlig shopper. Kom med bagom!</p>
+  <p id="forsidevideotekst">Jeg arbejder også som personlig shopper. <br>Kom med bagom!</p>
   <a href="/personligshopper">
   <button id="bookherknap">LÆS MERE</button> 
   </a>
